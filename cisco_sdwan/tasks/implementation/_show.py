@@ -343,7 +343,6 @@ class ShowArgs(TableTaskArgs):
     # Validators
     _validate_regex = field_validator('regex', 'not_regex')(validate_regex)
     _validate_site_id = field_validator('site')(validate_site_id)
-    _validate_ipv4 = field_validator('system_ip')(validate_ipv4)
     _validate_ipv4 = field_validator('system_ip')(validate_ipv4_list)
 
     @model_validator(mode='after')

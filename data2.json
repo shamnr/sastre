@@ -1,0 +1,3261 @@
+{
+    "metadata": {
+        "device_mappings": {
+            "device1": "10.10.10.11",
+            "device2": "10.10.10.12",
+            "device3": "10.10.10.13"
+        },
+        "device_type": "cedge"
+    },
+    "data": [
+        {
+            "header": {
+                "name": "Control connections",
+                "title": {
+                    "column_0": "Device",
+                    "column_1": "Peer System IP",
+                    "column_2": "Site ID",
+                    "column_3": "Peer Type",
+                    "column_4": "Local Color",
+                    "column_5": "Remote Color",
+                    "column_6": "State",
+                    "column_7": "Private IP",
+                    "column_8": "Private Port",
+                    "column_9": "Public IP",
+                    "column_10": "Public Port",
+                    "column_11": "Instance ID",
+                    "column_12": "Peer Protocol",
+                    "column_13": "Domain ID",
+                    "column_14": "Up Since"
+                }
+            },
+            "data": [
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.1",
+                    "column_2": 100,
+                    "column_3": "vmanage",
+                    "column_4": "mpls",
+                    "column_5": "public-internet",
+                    "column_6": "up",
+                    "column_7": "172.16.1.1",
+                    "column_8": 12446,
+                    "column_9": "172.16.1.1",
+                    "column_10": 12446,
+                    "column_11": 0,
+                    "column_12": "dtls",
+                    "column_13": 0,
+                    "column_14": 1725622080000
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.3",
+                    "column_2": 100,
+                    "column_3": "vsmart",
+                    "column_4": "biz-internet",
+                    "column_5": "public-internet",
+                    "column_6": "up",
+                    "column_7": "172.16.1.3",
+                    "column_8": 12446,
+                    "column_9": "172.16.1.3",
+                    "column_10": 12446,
+                    "column_11": 0,
+                    "column_12": "dtls",
+                    "column_13": 1,
+                    "column_14": 1725622080000
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.3",
+                    "column_2": 100,
+                    "column_3": "vsmart",
+                    "column_4": "mpls",
+                    "column_5": "public-internet",
+                    "column_6": "up",
+                    "column_7": "172.16.1.3",
+                    "column_8": 12446,
+                    "column_9": "172.16.1.3",
+                    "column_10": 12446,
+                    "column_11": 0,
+                    "column_12": "dtls",
+                    "column_13": 1,
+                    "column_14": 1725622080000
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.1",
+                    "column_2": 100,
+                    "column_3": "vmanage",
+                    "column_4": "biz-internet",
+                    "column_5": "public-internet",
+                    "column_6": "up",
+                    "column_7": "172.16.1.1",
+                    "column_8": 12646,
+                    "column_9": "172.16.1.1",
+                    "column_10": 12646,
+                    "column_11": 0,
+                    "column_12": "dtls",
+                    "column_13": 0,
+                    "column_14": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.3",
+                    "column_2": 100,
+                    "column_3": "vsmart",
+                    "column_4": "biz-internet",
+                    "column_5": "public-internet",
+                    "column_6": "up",
+                    "column_7": "172.16.1.3",
+                    "column_8": 12446,
+                    "column_9": "172.16.1.3",
+                    "column_10": 12446,
+                    "column_11": 0,
+                    "column_12": "dtls",
+                    "column_13": 1,
+                    "column_14": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.3",
+                    "column_2": 100,
+                    "column_3": "vsmart",
+                    "column_4": "mpls",
+                    "column_5": "public-internet",
+                    "column_6": "up",
+                    "column_7": "172.16.1.3",
+                    "column_8": 12446,
+                    "column_9": "172.16.1.3",
+                    "column_10": 12446,
+                    "column_11": 0,
+                    "column_12": "dtls",
+                    "column_13": 1,
+                    "column_14": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.1",
+                    "column_2": 100,
+                    "column_3": "vmanage",
+                    "column_4": "mpls",
+                    "column_5": "public-internet",
+                    "column_6": "up",
+                    "column_7": "172.16.1.1",
+                    "column_8": 12946,
+                    "column_9": "172.16.1.1",
+                    "column_10": 12946,
+                    "column_11": 0,
+                    "column_12": "dtls",
+                    "column_13": 0,
+                    "column_14": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.3",
+                    "column_2": 100,
+                    "column_3": "vsmart",
+                    "column_4": "biz-internet",
+                    "column_5": "public-internet",
+                    "column_6": "up",
+                    "column_7": "172.16.1.3",
+                    "column_8": 12346,
+                    "column_9": "172.16.1.3",
+                    "column_10": 12346,
+                    "column_11": 0,
+                    "column_12": "dtls",
+                    "column_13": 1,
+                    "column_14": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.3",
+                    "column_2": 100,
+                    "column_3": "vsmart",
+                    "column_4": "mpls",
+                    "column_5": "public-internet",
+                    "column_6": "up",
+                    "column_7": "172.16.1.3",
+                    "column_8": 12346,
+                    "column_9": "172.16.1.3",
+                    "column_10": 12346,
+                    "column_11": 0,
+                    "column_12": "dtls",
+                    "column_13": 1,
+                    "column_14": 1725622020000
+                }
+            ]
+        },
+        {
+            "header": {
+                "name": "System status",
+                "title": {
+                    "column_0": "Device",
+                    "column_1": "State",
+                    "column_2": "CPU User(%)",
+                    "column_3": "CPU System(%)",
+                    "column_4": "Memory Total",
+                    "column_5": "Memory Free",
+                    "column_6": "Disk Size",
+                    "column_7": "Disk Used"
+                }
+            },
+            "data": [
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "green",
+                    "column_2": "1.20",
+                    "column_3": "1.31",
+                    "column_4": "7969788",
+                    "column_5": "3748780",
+                    "column_6": "6299M",
+                    "column_7": "3645M"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "green",
+                    "column_2": "2.98",
+                    "column_3": "3.70",
+                    "column_4": "16177528",
+                    "column_5": "11858388",
+                    "column_6": "28260M",
+                    "column_7": "2740M"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "green",
+                    "column_2": "10.35",
+                    "column_3": "6.45",
+                    "column_4": "4007468",
+                    "column_5": "1183336",
+                    "column_6": "3107M",
+                    "column_7": "1918M"
+                }
+            ]
+        },
+        {
+            "header": {
+                "name": "OMP summary",
+                "title": {
+                    "column_0": "Device",
+                    "column_1": "Operational State",
+                    "column_2": "OMP Uptime",
+                    "column_3": "vSmart Peers",
+                    "column_4": "Routes Received",
+                    "column_5": "Routes Installed",
+                    "column_6": "Routes Sent",
+                    "column_7": "TLOCs Received",
+                    "column_8": "TLOCs Installed",
+                    "column_9": "TLOCs Sent",
+                    "column_10": "Services Received",
+                    "column_11": "Services Installed",
+                    "column_12": "Services Sent",
+                    "column_13": "Policies Received",
+                    "column_14": "Policies Sent"
+                }
+            },
+            "data": [
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "UP",
+                    "column_2": "1y 305:16:35:36",
+                    "column_3": 1,
+                    "column_4": 223,
+                    "column_5": 157,
+                    "column_6": 46,
+                    "column_7": 9,
+                    "column_8": 7,
+                    "column_9": 2,
+                    "column_10": 2,
+                    "column_11": 0,
+                    "column_12": 2,
+                    "column_13": 4,
+                    "column_14": 0
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "UP",
+                    "column_2": "152:22:52:08",
+                    "column_3": 1,
+                    "column_4": 219,
+                    "column_5": 93,
+                    "column_6": 126,
+                    "column_7": 9,
+                    "column_8": 7,
+                    "column_9": 2,
+                    "column_10": 2,
+                    "column_11": 0,
+                    "column_12": 2,
+                    "column_13": 0,
+                    "column_14": 0
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "UP",
+                    "column_2": "152:19:36:00",
+                    "column_3": 1,
+                    "column_4": 219,
+                    "column_5": 187,
+                    "column_6": 32,
+                    "column_7": 9,
+                    "column_8": 7,
+                    "column_9": 2,
+                    "column_10": 2,
+                    "column_11": 0,
+                    "column_12": 2,
+                    "column_13": 0,
+                    "column_14": 0
+                }
+            ]
+        },
+        {
+            "header": {
+                "name": "BFD sessions",
+                "title": {
+                    "column_0": "Device",
+                    "column_1": "System IP",
+                    "column_2": "Site ID",
+                    "column_3": "Source TLOC Color",
+                    "column_4": "Remote TLOC Color",
+                    "column_5": "State",
+                    "column_6": "Source IP",
+                    "column_7": "Source Port",
+                    "column_8": "Destination Public IP",
+                    "column_9": "Destination Public Port",
+                    "column_10": "Transitions",
+                    "column_11": "Up Since"
+                }
+            },
+            "data": [
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.12",
+                    "column_2": 101,
+                    "column_3": "biz-internet",
+                    "column_4": "biz-internet",
+                    "column_5": "up",
+                    "column_6": "200.1.1.1",
+                    "column_7": 12366,
+                    "column_8": "200.1.1.2",
+                    "column_9": 12406,
+                    "column_10": 0,
+                    "column_11": 1725622080000
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.12",
+                    "column_2": 101,
+                    "column_3": "biz-internet",
+                    "column_4": "mpls",
+                    "column_5": "up",
+                    "column_6": "200.1.1.1",
+                    "column_7": 12366,
+                    "column_8": "100.1.1.2",
+                    "column_9": 12406,
+                    "column_10": 0,
+                    "column_11": 1725622080000
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.12",
+                    "column_2": 101,
+                    "column_3": "mpls",
+                    "column_4": "biz-internet",
+                    "column_5": "up",
+                    "column_6": "100.1.1.1",
+                    "column_7": 12406,
+                    "column_8": "200.1.1.2",
+                    "column_9": 12406,
+                    "column_10": 0,
+                    "column_11": 1725622080000
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.12",
+                    "column_2": 101,
+                    "column_3": "mpls",
+                    "column_4": "mpls",
+                    "column_5": "up",
+                    "column_6": "100.1.1.1",
+                    "column_7": 12406,
+                    "column_8": "100.1.1.2",
+                    "column_9": 12406,
+                    "column_10": 0,
+                    "column_11": 1725622080000
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.13",
+                    "column_2": 102,
+                    "column_3": "biz-internet",
+                    "column_4": "biz-internet",
+                    "column_5": "up",
+                    "column_6": "200.1.1.1",
+                    "column_7": 12366,
+                    "column_8": "200.1.1.3",
+                    "column_9": 12426,
+                    "column_10": 0,
+                    "column_11": 1725622080000
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.13",
+                    "column_2": 102,
+                    "column_3": "biz-internet",
+                    "column_4": "mpls",
+                    "column_5": "up",
+                    "column_6": "200.1.1.1",
+                    "column_7": 12366,
+                    "column_8": "100.1.1.3",
+                    "column_9": 12426,
+                    "column_10": 0,
+                    "column_11": 1725622080000
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.13",
+                    "column_2": 102,
+                    "column_3": "mpls",
+                    "column_4": "biz-internet",
+                    "column_5": "up",
+                    "column_6": "100.1.1.1",
+                    "column_7": 12406,
+                    "column_8": "200.1.1.3",
+                    "column_9": 12426,
+                    "column_10": 0,
+                    "column_11": 1725622080000
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.13",
+                    "column_2": 102,
+                    "column_3": "mpls",
+                    "column_4": "mpls",
+                    "column_5": "up",
+                    "column_6": "100.1.1.1",
+                    "column_7": 12406,
+                    "column_8": "100.1.1.3",
+                    "column_9": 12426,
+                    "column_10": 0,
+                    "column_11": 1725622080000
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.14",
+                    "column_2": 103,
+                    "column_3": "biz-internet",
+                    "column_4": "biz-internet",
+                    "column_5": "up",
+                    "column_6": "200.1.1.1",
+                    "column_7": 12366,
+                    "column_8": "200.1.1.4",
+                    "column_9": 12406,
+                    "column_10": 2,
+                    "column_11": 1725622080000
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.14",
+                    "column_2": 103,
+                    "column_3": "biz-internet",
+                    "column_4": "mpls",
+                    "column_5": "up",
+                    "column_6": "200.1.1.1",
+                    "column_7": 12366,
+                    "column_8": "100.1.1.4",
+                    "column_9": 12426,
+                    "column_10": 1,
+                    "column_11": 1725622080000
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.14",
+                    "column_2": 103,
+                    "column_3": "mpls",
+                    "column_4": "biz-internet",
+                    "column_5": "up",
+                    "column_6": "100.1.1.1",
+                    "column_7": 12406,
+                    "column_8": "200.1.1.4",
+                    "column_9": 12406,
+                    "column_10": 1,
+                    "column_11": 1725622080000
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.14",
+                    "column_2": 103,
+                    "column_3": "mpls",
+                    "column_4": "mpls",
+                    "column_5": "up",
+                    "column_6": "100.1.1.1",
+                    "column_7": 12406,
+                    "column_8": "100.1.1.4",
+                    "column_9": 12426,
+                    "column_10": 0,
+                    "column_11": 1725622080000
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.15",
+                    "column_2": 104,
+                    "column_3": "biz-internet",
+                    "column_4": "biz-internet",
+                    "column_5": "up",
+                    "column_6": "200.1.1.1",
+                    "column_7": 12366,
+                    "column_8": "200.1.1.5",
+                    "column_9": 12406,
+                    "column_10": 1,
+                    "column_11": 1726637640000
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.15",
+                    "column_2": 104,
+                    "column_3": "mpls",
+                    "column_4": "biz-internet",
+                    "column_5": "up",
+                    "column_6": "100.1.1.1",
+                    "column_7": 12406,
+                    "column_8": "200.1.1.5",
+                    "column_9": 12406,
+                    "column_10": 1,
+                    "column_11": 1726637640000
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.11",
+                    "column_2": 100,
+                    "column_3": "biz-internet",
+                    "column_4": "biz-internet",
+                    "column_5": "up",
+                    "column_6": "200.1.1.2",
+                    "column_7": 12406,
+                    "column_8": "200.1.1.1",
+                    "column_9": 12366,
+                    "column_10": 0,
+                    "column_11": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.11",
+                    "column_2": 100,
+                    "column_3": "biz-internet",
+                    "column_4": "mpls",
+                    "column_5": "up",
+                    "column_6": "200.1.1.2",
+                    "column_7": 12406,
+                    "column_8": "100.1.1.1",
+                    "column_9": 12406,
+                    "column_10": 1,
+                    "column_11": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.11",
+                    "column_2": 100,
+                    "column_3": "mpls",
+                    "column_4": "biz-internet",
+                    "column_5": "up",
+                    "column_6": "100.1.1.2",
+                    "column_7": 12406,
+                    "column_8": "200.1.1.1",
+                    "column_9": 12366,
+                    "column_10": 1,
+                    "column_11": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.11",
+                    "column_2": 100,
+                    "column_3": "mpls",
+                    "column_4": "mpls",
+                    "column_5": "up",
+                    "column_6": "100.1.1.2",
+                    "column_7": 12406,
+                    "column_8": "100.1.1.1",
+                    "column_9": 12406,
+                    "column_10": 0,
+                    "column_11": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.13",
+                    "column_2": 102,
+                    "column_3": "biz-internet",
+                    "column_4": "biz-internet",
+                    "column_5": "up",
+                    "column_6": "200.1.1.2",
+                    "column_7": 12406,
+                    "column_8": "200.1.1.3",
+                    "column_9": 12426,
+                    "column_10": 0,
+                    "column_11": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.13",
+                    "column_2": 102,
+                    "column_3": "biz-internet",
+                    "column_4": "mpls",
+                    "column_5": "up",
+                    "column_6": "200.1.1.2",
+                    "column_7": 12406,
+                    "column_8": "100.1.1.3",
+                    "column_9": 12426,
+                    "column_10": 0,
+                    "column_11": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.13",
+                    "column_2": 102,
+                    "column_3": "mpls",
+                    "column_4": "biz-internet",
+                    "column_5": "up",
+                    "column_6": "100.1.1.2",
+                    "column_7": 12406,
+                    "column_8": "200.1.1.3",
+                    "column_9": 12426,
+                    "column_10": 0,
+                    "column_11": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.13",
+                    "column_2": 102,
+                    "column_3": "mpls",
+                    "column_4": "mpls",
+                    "column_5": "up",
+                    "column_6": "100.1.1.2",
+                    "column_7": 12406,
+                    "column_8": "100.1.1.3",
+                    "column_9": 12426,
+                    "column_10": 0,
+                    "column_11": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.14",
+                    "column_2": 103,
+                    "column_3": "biz-internet",
+                    "column_4": "biz-internet",
+                    "column_5": "up",
+                    "column_6": "200.1.1.2",
+                    "column_7": 12406,
+                    "column_8": "200.1.1.4",
+                    "column_9": 12406,
+                    "column_10": 0,
+                    "column_11": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.14",
+                    "column_2": 103,
+                    "column_3": "biz-internet",
+                    "column_4": "mpls",
+                    "column_5": "up",
+                    "column_6": "200.1.1.2",
+                    "column_7": 12406,
+                    "column_8": "100.1.1.4",
+                    "column_9": 12426,
+                    "column_10": 1,
+                    "column_11": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.14",
+                    "column_2": 103,
+                    "column_3": "mpls",
+                    "column_4": "biz-internet",
+                    "column_5": "up",
+                    "column_6": "100.1.1.2",
+                    "column_7": 12406,
+                    "column_8": "200.1.1.4",
+                    "column_9": 12406,
+                    "column_10": 1,
+                    "column_11": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.14",
+                    "column_2": 103,
+                    "column_3": "mpls",
+                    "column_4": "mpls",
+                    "column_5": "up",
+                    "column_6": "100.1.1.2",
+                    "column_7": 12406,
+                    "column_8": "100.1.1.4",
+                    "column_9": 12426,
+                    "column_10": 0,
+                    "column_11": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.15",
+                    "column_2": 104,
+                    "column_3": "biz-internet",
+                    "column_4": "biz-internet",
+                    "column_5": "up",
+                    "column_6": "200.1.1.2",
+                    "column_7": 12406,
+                    "column_8": "200.1.1.5",
+                    "column_9": 12406,
+                    "column_10": 1,
+                    "column_11": 1726637580000
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.15",
+                    "column_2": 104,
+                    "column_3": "mpls",
+                    "column_4": "biz-internet",
+                    "column_5": "up",
+                    "column_6": "100.1.1.2",
+                    "column_7": 12406,
+                    "column_8": "200.1.1.5",
+                    "column_9": 12406,
+                    "column_10": 1,
+                    "column_11": 1726637580000
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.11",
+                    "column_2": 100,
+                    "column_3": "biz-internet",
+                    "column_4": "biz-internet",
+                    "column_5": "up",
+                    "column_6": "200.1.1.3",
+                    "column_7": 12426,
+                    "column_8": "200.1.1.1",
+                    "column_9": 12366,
+                    "column_10": 0,
+                    "column_11": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.11",
+                    "column_2": 100,
+                    "column_3": "biz-internet",
+                    "column_4": "mpls",
+                    "column_5": "up",
+                    "column_6": "200.1.1.3",
+                    "column_7": 12426,
+                    "column_8": "100.1.1.1",
+                    "column_9": 12406,
+                    "column_10": 0,
+                    "column_11": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.11",
+                    "column_2": 100,
+                    "column_3": "mpls",
+                    "column_4": "biz-internet",
+                    "column_5": "up",
+                    "column_6": "100.1.1.3",
+                    "column_7": 12426,
+                    "column_8": "200.1.1.1",
+                    "column_9": 12366,
+                    "column_10": 1,
+                    "column_11": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.11",
+                    "column_2": 100,
+                    "column_3": "mpls",
+                    "column_4": "mpls",
+                    "column_5": "up",
+                    "column_6": "100.1.1.3",
+                    "column_7": 12426,
+                    "column_8": "100.1.1.1",
+                    "column_9": 12406,
+                    "column_10": 0,
+                    "column_11": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.12",
+                    "column_2": 101,
+                    "column_3": "biz-internet",
+                    "column_4": "biz-internet",
+                    "column_5": "up",
+                    "column_6": "200.1.1.3",
+                    "column_7": 12426,
+                    "column_8": "200.1.1.2",
+                    "column_9": 12406,
+                    "column_10": 0,
+                    "column_11": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.12",
+                    "column_2": 101,
+                    "column_3": "biz-internet",
+                    "column_4": "mpls",
+                    "column_5": "up",
+                    "column_6": "200.1.1.3",
+                    "column_7": 12426,
+                    "column_8": "100.1.1.2",
+                    "column_9": 12406,
+                    "column_10": 0,
+                    "column_11": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.12",
+                    "column_2": 101,
+                    "column_3": "mpls",
+                    "column_4": "biz-internet",
+                    "column_5": "up",
+                    "column_6": "100.1.1.3",
+                    "column_7": 12426,
+                    "column_8": "200.1.1.2",
+                    "column_9": 12406,
+                    "column_10": 0,
+                    "column_11": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.12",
+                    "column_2": 101,
+                    "column_3": "mpls",
+                    "column_4": "mpls",
+                    "column_5": "up",
+                    "column_6": "100.1.1.3",
+                    "column_7": 12426,
+                    "column_8": "100.1.1.2",
+                    "column_9": 12406,
+                    "column_10": 0,
+                    "column_11": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.14",
+                    "column_2": 103,
+                    "column_3": "biz-internet",
+                    "column_4": "biz-internet",
+                    "column_5": "up",
+                    "column_6": "200.1.1.3",
+                    "column_7": 12426,
+                    "column_8": "200.1.1.4",
+                    "column_9": 12406,
+                    "column_10": 1,
+                    "column_11": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.14",
+                    "column_2": 103,
+                    "column_3": "biz-internet",
+                    "column_4": "mpls",
+                    "column_5": "up",
+                    "column_6": "200.1.1.3",
+                    "column_7": 12426,
+                    "column_8": "100.1.1.4",
+                    "column_9": 12426,
+                    "column_10": 0,
+                    "column_11": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.14",
+                    "column_2": 103,
+                    "column_3": "mpls",
+                    "column_4": "biz-internet",
+                    "column_5": "up",
+                    "column_6": "100.1.1.3",
+                    "column_7": 12426,
+                    "column_8": "200.1.1.4",
+                    "column_9": 12406,
+                    "column_10": 1,
+                    "column_11": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.14",
+                    "column_2": 103,
+                    "column_3": "mpls",
+                    "column_4": "mpls",
+                    "column_5": "up",
+                    "column_6": "100.1.1.3",
+                    "column_7": 12426,
+                    "column_8": "100.1.1.4",
+                    "column_9": 12426,
+                    "column_10": 0,
+                    "column_11": 1725622020000
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.15",
+                    "column_2": 104,
+                    "column_3": "biz-internet",
+                    "column_4": "biz-internet",
+                    "column_5": "up",
+                    "column_6": "200.1.1.3",
+                    "column_7": 12426,
+                    "column_8": "200.1.1.5",
+                    "column_9": 12406,
+                    "column_10": 1,
+                    "column_11": 1726637580000
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.15",
+                    "column_2": 104,
+                    "column_3": "mpls",
+                    "column_4": "biz-internet",
+                    "column_5": "up",
+                    "column_6": "100.1.1.3",
+                    "column_7": 12426,
+                    "column_8": "200.1.1.5",
+                    "column_9": 12406,
+                    "column_10": 1,
+                    "column_11": 1726637580000
+                }
+            ]
+        },
+        {
+            "header": {
+                "name": "Control local-properties",
+                "title": {
+                    "column_0": "Device",
+                    "column_1": "System IP",
+                    "column_2": "Site ID",
+                    "column_3": "Device Type",
+                    "column_4": "Organization Name",
+                    "column_5": "Domain ID",
+                    "column_6": "Port Hopped",
+                    "column_7": "Protocol",
+                    "column_8": "TLS Port",
+                    "column_9": "Certificate Status",
+                    "column_10": "Root CA Chain Status",
+                    "column_11": "Certificate Validity",
+                    "column_12": "Certificate Expiry Date"
+                }
+            },
+            "data": [
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.11",
+                    "column_2": "100",
+                    "column_3": "vedge",
+                    "column_4": "HCA",
+                    "column_5": "1",
+                    "column_6": "TRUE",
+                    "column_7": "dtls",
+                    "column_8": "0",
+                    "column_9": "Installed",
+                    "column_10": "Installed",
+                    "column_11": "Valid",
+                    "column_12": "May 14 20:25:41 2029 GMT"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.12",
+                    "column_2": "101",
+                    "column_3": "vedge",
+                    "column_4": "HCA",
+                    "column_5": "1",
+                    "column_6": "TRUE",
+                    "column_7": "dtls",
+                    "column_8": "0",
+                    "column_9": "Installed",
+                    "column_10": "Installed",
+                    "column_11": "Valid",
+                    "column_12": "May 14 20:25:41 2029 GMT"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.13",
+                    "column_2": "102",
+                    "column_3": "vedge",
+                    "column_4": "HCA",
+                    "column_5": "1",
+                    "column_6": "TRUE",
+                    "column_7": "dtls",
+                    "column_8": "0",
+                    "column_9": "Installed",
+                    "column_10": "Installed",
+                    "column_11": "Valid",
+                    "column_12": "May 14 20:25:41 2029 GMT"
+                }
+            ]
+        },
+        {
+            "header": {
+                "name": "Tunnel statistics",
+                "title": {
+                    "column_0": "Device",
+                    "column_1": "Remote System IP",
+                    "column_2": "Local Color",
+                    "column_3": "Remote Color",
+                    "column_4": "Tunnel Protocol",
+                    "column_5": "Tunnel MTU",
+                    "column_6": "TCP MSS Adjust",
+                    "column_7": "Source IP",
+                    "column_8": "Destination IP",
+                    "column_9": "Source Port",
+                    "column_10": "Destination Port"
+                }
+            },
+            "data": [
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.12",
+                    "column_2": "biz-internet",
+                    "column_3": "biz-internet",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "200.1.1.1",
+                    "column_8": "200.1.1.2",
+                    "column_9": 12366,
+                    "column_10": 12406
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.12",
+                    "column_2": "biz-internet",
+                    "column_3": "mpls",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "200.1.1.1",
+                    "column_8": "100.1.1.2",
+                    "column_9": 12366,
+                    "column_10": 12406
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.12",
+                    "column_2": "mpls",
+                    "column_3": "biz-internet",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "100.1.1.1",
+                    "column_8": "200.1.1.2",
+                    "column_9": 12406,
+                    "column_10": 12406
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.12",
+                    "column_2": "mpls",
+                    "column_3": "mpls",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "100.1.1.1",
+                    "column_8": "100.1.1.2",
+                    "column_9": 12406,
+                    "column_10": 12406
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.13",
+                    "column_2": "biz-internet",
+                    "column_3": "biz-internet",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "200.1.1.1",
+                    "column_8": "200.1.1.3",
+                    "column_9": 12366,
+                    "column_10": 12426
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.13",
+                    "column_2": "biz-internet",
+                    "column_3": "mpls",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "200.1.1.1",
+                    "column_8": "100.1.1.3",
+                    "column_9": 12366,
+                    "column_10": 12426
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.13",
+                    "column_2": "mpls",
+                    "column_3": "biz-internet",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "100.1.1.1",
+                    "column_8": "200.1.1.3",
+                    "column_9": 12406,
+                    "column_10": 12426
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.13",
+                    "column_2": "mpls",
+                    "column_3": "mpls",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "100.1.1.1",
+                    "column_8": "100.1.1.3",
+                    "column_9": 12406,
+                    "column_10": 12426
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.14",
+                    "column_2": "biz-internet",
+                    "column_3": "biz-internet",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "200.1.1.1",
+                    "column_8": "200.1.1.4",
+                    "column_9": 12366,
+                    "column_10": 12406
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.14",
+                    "column_2": "biz-internet",
+                    "column_3": "mpls",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "200.1.1.1",
+                    "column_8": "100.1.1.4",
+                    "column_9": 12366,
+                    "column_10": 12426
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.14",
+                    "column_2": "mpls",
+                    "column_3": "biz-internet",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "100.1.1.1",
+                    "column_8": "200.1.1.4",
+                    "column_9": 12406,
+                    "column_10": 12406
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.14",
+                    "column_2": "mpls",
+                    "column_3": "mpls",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "100.1.1.1",
+                    "column_8": "100.1.1.4",
+                    "column_9": 12406,
+                    "column_10": 12426
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.15",
+                    "column_2": "biz-internet",
+                    "column_3": "biz-internet",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "200.1.1.1",
+                    "column_8": "200.1.1.5",
+                    "column_9": 12366,
+                    "column_10": 12406
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "10.10.10.15",
+                    "column_2": "mpls",
+                    "column_3": "biz-internet",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "100.1.1.1",
+                    "column_8": "200.1.1.5",
+                    "column_9": 12406,
+                    "column_10": 12406
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.11",
+                    "column_2": "biz-internet",
+                    "column_3": "biz-internet",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "200.1.1.2",
+                    "column_8": "200.1.1.1",
+                    "column_9": 12406,
+                    "column_10": 12366
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.11",
+                    "column_2": "biz-internet",
+                    "column_3": "mpls",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "200.1.1.2",
+                    "column_8": "100.1.1.1",
+                    "column_9": 12406,
+                    "column_10": 12406
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.11",
+                    "column_2": "mpls",
+                    "column_3": "biz-internet",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "100.1.1.2",
+                    "column_8": "200.1.1.1",
+                    "column_9": 12406,
+                    "column_10": 12366
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.11",
+                    "column_2": "mpls",
+                    "column_3": "mpls",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "100.1.1.2",
+                    "column_8": "100.1.1.1",
+                    "column_9": 12406,
+                    "column_10": 12406
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.13",
+                    "column_2": "biz-internet",
+                    "column_3": "biz-internet",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "200.1.1.2",
+                    "column_8": "200.1.1.3",
+                    "column_9": 12406,
+                    "column_10": 12426
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.13",
+                    "column_2": "biz-internet",
+                    "column_3": "mpls",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "200.1.1.2",
+                    "column_8": "100.1.1.3",
+                    "column_9": 12406,
+                    "column_10": 12426
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.13",
+                    "column_2": "mpls",
+                    "column_3": "biz-internet",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "100.1.1.2",
+                    "column_8": "200.1.1.3",
+                    "column_9": 12406,
+                    "column_10": 12426
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.13",
+                    "column_2": "mpls",
+                    "column_3": "mpls",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "100.1.1.2",
+                    "column_8": "100.1.1.3",
+                    "column_9": 12406,
+                    "column_10": 12426
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.14",
+                    "column_2": "biz-internet",
+                    "column_3": "biz-internet",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "200.1.1.2",
+                    "column_8": "200.1.1.4",
+                    "column_9": 12406,
+                    "column_10": 12406
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.14",
+                    "column_2": "biz-internet",
+                    "column_3": "mpls",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "200.1.1.2",
+                    "column_8": "100.1.1.4",
+                    "column_9": 12406,
+                    "column_10": 12426
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.14",
+                    "column_2": "mpls",
+                    "column_3": "biz-internet",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "100.1.1.2",
+                    "column_8": "200.1.1.4",
+                    "column_9": 12406,
+                    "column_10": 12406
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.14",
+                    "column_2": "mpls",
+                    "column_3": "mpls",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "100.1.1.2",
+                    "column_8": "100.1.1.4",
+                    "column_9": 12406,
+                    "column_10": 12426
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.15",
+                    "column_2": "biz-internet",
+                    "column_3": "biz-internet",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "200.1.1.2",
+                    "column_8": "200.1.1.5",
+                    "column_9": 12406,
+                    "column_10": 12406
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "10.10.10.15",
+                    "column_2": "mpls",
+                    "column_3": "biz-internet",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "100.1.1.2",
+                    "column_8": "200.1.1.5",
+                    "column_9": 12406,
+                    "column_10": 12406
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.11",
+                    "column_2": "biz-internet",
+                    "column_3": "biz-internet",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "200.1.1.3",
+                    "column_8": "200.1.1.1",
+                    "column_9": 12426,
+                    "column_10": 12366
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.11",
+                    "column_2": "biz-internet",
+                    "column_3": "mpls",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "200.1.1.3",
+                    "column_8": "100.1.1.1",
+                    "column_9": 12426,
+                    "column_10": 12406
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.11",
+                    "column_2": "mpls",
+                    "column_3": "biz-internet",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "100.1.1.3",
+                    "column_8": "200.1.1.1",
+                    "column_9": 12426,
+                    "column_10": 12366
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.11",
+                    "column_2": "mpls",
+                    "column_3": "mpls",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "100.1.1.3",
+                    "column_8": "100.1.1.1",
+                    "column_9": 12426,
+                    "column_10": 12406
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.12",
+                    "column_2": "biz-internet",
+                    "column_3": "biz-internet",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "200.1.1.3",
+                    "column_8": "200.1.1.2",
+                    "column_9": 12426,
+                    "column_10": 12406
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.12",
+                    "column_2": "biz-internet",
+                    "column_3": "mpls",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "200.1.1.3",
+                    "column_8": "100.1.1.2",
+                    "column_9": 12426,
+                    "column_10": 12406
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.12",
+                    "column_2": "mpls",
+                    "column_3": "biz-internet",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "100.1.1.3",
+                    "column_8": "200.1.1.2",
+                    "column_9": 12426,
+                    "column_10": 12406
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.12",
+                    "column_2": "mpls",
+                    "column_3": "mpls",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "100.1.1.3",
+                    "column_8": "100.1.1.2",
+                    "column_9": 12426,
+                    "column_10": 12406
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.14",
+                    "column_2": "biz-internet",
+                    "column_3": "biz-internet",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "200.1.1.3",
+                    "column_8": "200.1.1.4",
+                    "column_9": 12426,
+                    "column_10": 12406
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.14",
+                    "column_2": "biz-internet",
+                    "column_3": "mpls",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "200.1.1.3",
+                    "column_8": "100.1.1.4",
+                    "column_9": 12426,
+                    "column_10": 12426
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.14",
+                    "column_2": "mpls",
+                    "column_3": "biz-internet",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "100.1.1.3",
+                    "column_8": "200.1.1.4",
+                    "column_9": 12426,
+                    "column_10": 12406
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.14",
+                    "column_2": "mpls",
+                    "column_3": "mpls",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "100.1.1.3",
+                    "column_8": "100.1.1.4",
+                    "column_9": 12426,
+                    "column_10": 12426
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.15",
+                    "column_2": "biz-internet",
+                    "column_3": "biz-internet",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "200.1.1.3",
+                    "column_8": "200.1.1.5",
+                    "column_9": 12426,
+                    "column_10": 12406
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "10.10.10.15",
+                    "column_2": "mpls",
+                    "column_3": "biz-internet",
+                    "column_4": "ipsec",
+                    "column_5": 1438,
+                    "column_6": 1358,
+                    "column_7": "100.1.1.3",
+                    "column_8": "200.1.1.5",
+                    "column_9": 12426,
+                    "column_10": 12406
+                }
+            ]
+        },
+        {
+            "header": {
+                "name": "Software info",
+                "title": {
+                    "column_0": "Device",
+                    "column_1": "Version",
+                    "column_2": "Active",
+                    "column_3": "Default",
+                    "column_4": "Confirmed"
+                }
+            },
+            "data": [
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "17.03.03.0.4762",
+                    "column_2": "false",
+                    "column_3": "false",
+                    "column_4": "auto"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "17.03.05.0.6600",
+                    "column_2": "false",
+                    "column_3": "false",
+                    "column_4": "user"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "17.06.04.0.4912",
+                    "column_2": "true",
+                    "column_3": "true",
+                    "column_4": "user"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "17.03.05.0.6600",
+                    "column_2": "false",
+                    "column_3": "false",
+                    "column_4": "user"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "17.06.04.0.4912",
+                    "column_2": "false",
+                    "column_3": "false",
+                    "column_4": "user"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "17.09.05a.0.6476",
+                    "column_2": "true",
+                    "column_3": "true",
+                    "column_4": "user"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "17.09.05a.0.6476",
+                    "column_2": "true",
+                    "column_3": "true",
+                    "column_4": "user"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "17.12.01a.0.118",
+                    "column_2": "false",
+                    "column_3": "false",
+                    "column_4": "auto"
+                }
+            ]
+        },
+        {
+            "header": {
+                "name": "hardware environment",
+                "title": {
+                    "column_0": "Device",
+                    "column_1": "Name",
+                    "column_2": "Sensor Name",
+                    "column_3": "State",
+                    "column_4": "Current reading",
+                    "column_5": "Sensor units"
+                }
+            },
+            "data": [
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "PEM Iout",
+                    "column_2": "current",
+                    "column_3": "Normal",
+                    "column_4": "0",
+                    "column_5": "amperes"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "PEM Iout",
+                    "column_2": "current",
+                    "column_3": "Normal",
+                    "column_4": "9",
+                    "column_5": "amperes"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "PEM Vin",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "0",
+                    "column_5": "volts-ac"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "PEM Vin",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "228",
+                    "column_5": "volts-ac"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "PEM Vout",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "0",
+                    "column_5": "volts-dc"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "PEM Vout",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "12",
+                    "column_5": "volts-dc"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "Temp: CPU Die",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "37",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "Temp: CPU Inlt",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "33",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "Temp: CPU VRM",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "31",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "Temp: Center",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "46",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "Temp: FC FAN0",
+                    "column_2": "temperature",
+                    "column_3": "Fan Speed 60%",
+                    "column_4": "31",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "Temp: FC FAN1",
+                    "column_2": "temperature",
+                    "column_3": "Fan Speed 60%",
+                    "column_4": "31",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "Temp: FC FANS",
+                    "column_2": "temperature",
+                    "column_3": "Fan Speed 60%",
+                    "column_4": "31",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "Temp: Inlet",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "31",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "Temp: Oct Die",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "50",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "Temp: Outlet",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "45",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "Temp: PEM In",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "32",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "Temp: PEM In",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "40",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "Temp: PEM Int",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "35",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "Temp: PEM Int",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "41",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "Temp: PEM Out",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "0",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "Temp: PEM Out",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "36",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "Temp: QFP Die",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "49",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "Temp: sTCAM",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "39",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 0: VH",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "11888",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 0: VP1",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "5086",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 0: VP3",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1507",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 0: VP4",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1790",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 0: VX1",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1510",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 0: VX2",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "753",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 0: VX3",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1006",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 0: VX4",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1057",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 0: VX5",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "819",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 1: VH",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "11883",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 1: VP2",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "3347",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 1: VP3",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1786",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 1: VP4",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "995",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 1: VX1",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1193",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 1: VX2",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "801",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 1: VX3",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "882",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 1: VX4",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "996",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 1: VX5",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "875",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 2: AUX1",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "751",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 2: AUX2",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "753",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 2: VH",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "11877",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 2: VP2",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1532",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 2: VP3",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1510",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 2: VP4",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "2497",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 2: VX1",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1110",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 2: VX2",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1101",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 2: VX3",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1206",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 2: VX4",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "2478",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "VVM 2: VX5",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "962",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "Iin ",
+                    "column_2": "current",
+                    "column_3": "Normal",
+                    "column_4": "0",
+                    "column_5": "amperes"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "Iin ",
+                    "column_2": "current",
+                    "column_3": "Normal",
+                    "column_4": "2",
+                    "column_5": "amperes"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "Iout",
+                    "column_2": "current",
+                    "column_3": "Normal",
+                    "column_4": "0",
+                    "column_5": "amperes"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "Iout",
+                    "column_2": "current",
+                    "column_3": "Normal",
+                    "column_4": "27",
+                    "column_5": "amperes"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "Temp1   ",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "23",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "Temp1   ",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "24",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "Temp2   ",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "25",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "Temp2   ",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "31",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "Temp3   ",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "34",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "Temp3   ",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "35",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "Temp: CPU Die ",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "32",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "Temp: FC FANS",
+                    "column_2": "temperature",
+                    "column_3": "Fan Speed 60%",
+                    "column_4": "24",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "Temp: LIB IN  ",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "28",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "Temp: LIB OUT ",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "41",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "Temp: PPB IN  ",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "24",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "Temp: PPB OUT ",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "50",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "Temp: Yoda 0  ",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "66",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "Temp: Yoda 1  ",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "60",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VLIB1: VH",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "5038",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VLIB1: VP1",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1800",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VLIB1: VP2",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "2501",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VLIB1: VP3",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "3303",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VLIB1: VX1",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1000",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VLIB1: VX2",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "7098",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VLIB1: VX3",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "948",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VLIB2: VH",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "11966",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VLIB2: VP1",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1009",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VLIB2: VP2",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "977",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VLIB2: VP3",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1198",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VLIB2: VP4",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1518",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VLIB2: VX2",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "752",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VLIB2: VX3",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "750",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VPPB1: VH",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "11951",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VPPB1: VP1",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1792",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VPPB1: VP2",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1514",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VPPB1: VP3",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1508",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VPPB1: VP4",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "5079",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VPPB1: VX1",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1003",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VPPB1: VX2",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "6874",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VPPB1: VX3",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "756",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VPPB1: VX4",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1051",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VPPB2: VH",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "11951",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VPPB2: VP2",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "3305",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VPPB2: VX2",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "814",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VPPB2: VX3",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "853",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VPPB3: VH",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "11966",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VPPB3: VP1",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "2509",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VPPB3: VP2",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1197",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VPPB3: VP3",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1510",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VPPB3: VP4",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1513",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VPPB3: VX1",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "971",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "VPPB3: VX2",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1001",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "Vin ",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "0",
+                    "column_5": "volts-ac"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "Vin ",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "230",
+                    "column_5": "volts-ac"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "Vout",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "12",
+                    "column_5": "volts-dc"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "Vout",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "12",
+                    "column_5": "volts-dc"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "I: 12v",
+                    "column_2": "current",
+                    "column_3": "Normal",
+                    "column_4": "3",
+                    "column_5": "amperes"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "I: PEM In",
+                    "column_2": "current",
+                    "column_3": "Normal",
+                    "column_4": "1",
+                    "column_5": "amperes"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "I: PEM Out",
+                    "column_2": "current",
+                    "column_3": "Normal",
+                    "column_4": "4",
+                    "column_5": "amperes"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "P: In pwr",
+                    "column_2": "power",
+                    "column_3": "Normal",
+                    "column_4": "51",
+                    "column_5": "watts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "P: Out pwr",
+                    "column_2": "power",
+                    "column_3": "Normal",
+                    "column_4": "42",
+                    "column_5": "watts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "P: pwr",
+                    "column_2": "power",
+                    "column_3": "Normal",
+                    "column_4": "10",
+                    "column_5": "watts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "P: pwr",
+                    "column_2": "power",
+                    "column_3": "Normal",
+                    "column_4": "35",
+                    "column_5": "watts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "P: pwr: Pwr",
+                    "column_2": "power",
+                    "column_3": "Normal",
+                    "column_4": "10",
+                    "column_5": "watts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "RPM: fan0",
+                    "column_2": "fan",
+                    "column_3": "Normal",
+                    "column_4": "5920",
+                    "column_5": "revolutions-per-minute"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "RPM: fan0",
+                    "column_2": "fan",
+                    "column_3": "Normal",
+                    "column_4": "6480",
+                    "column_5": "revolutions-per-minute"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "RPM: fan1",
+                    "column_2": "fan",
+                    "column_3": "Normal",
+                    "column_4": "6420",
+                    "column_5": "revolutions-per-minute"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "RPM: fan2",
+                    "column_2": "fan",
+                    "column_3": "Normal",
+                    "column_4": "6480",
+                    "column_5": "revolutions-per-minute"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "RPM: fan3",
+                    "column_2": "fan",
+                    "column_3": "Normal",
+                    "column_4": "6480",
+                    "column_5": "revolutions-per-minute"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "Temp: CPU",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "35",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "Temp: Inlet 1",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "29",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "Temp: Inlet 2",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "27",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "Temp: Outlet 1",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "33",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "Temp: Outlet 2",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "31",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "Temp: Temp 1",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "33",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "Temp: Temp 2",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "37",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "Temp: Temp 3",
+                    "column_2": "temperature",
+                    "column_3": "Normal",
+                    "column_4": "35",
+                    "column_5": "celsius"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "V: 0.75v",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "753",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "V: 1.0v",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "997",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "V: 1.0v CPU",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "984",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "V: 1.1v",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1070",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "V: 1.2v",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1198",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "V: 1.35v CPU",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1345",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "V: 1.5v",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1498",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "V: 1.8v",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1816",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "V: 1.8v CPU",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1816",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "V: 12v",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "12688",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "V: 2.5v",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "2469",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "V: 3.0v",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "2979",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "V: 3.3v",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "3264",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "V: 3.3v STBY",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "3295",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "V: 5v",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "5063",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "V: DDR",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "1508",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "V: PEM Out",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "12708",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "V: VCC CPU",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "964",
+                    "column_5": "millivolts"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "V: VNN CPU",
+                    "column_2": "voltage",
+                    "column_3": "Normal",
+                    "column_4": "999",
+                    "column_5": "millivolts"
+                }
+            ]
+        },
+        {
+            "header": {
+                "name": "hardware inventory",
+                "title": {
+                    "column_0": "Device",
+                    "column_1": "Hardware Type",
+                    "column_2": "Description",
+                    "column_3": "Version",
+                    "column_4": "Part Number",
+                    "column_5": "Serial Number"
+                }
+            },
+            "data": [
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "hw-type-chassis",
+                    "column_2": "Cisco ASR1001-X Chassis",
+                    "column_3": "V06",
+                    "column_4": "ASR1001-X",
+                    "column_5": "FXS2505Q15P"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "hw-type-cpu",
+                    "column_2": " Intel(R) Xeon(R) CPU  @ 1.80GHz",
+                    "column_3": " 6",
+                    "column_4": " GenuineIntel",
+                    "column_5": ""
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "hw-type-dram",
+                    "column_2": "Physical Memory",
+                    "column_3": "",
+                    "column_4": "",
+                    "column_5": ""
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "hw-type-fantray",
+                    "column_2": "Cisco ASR1001-X Fan Tray",
+                    "column_3": "",
+                    "column_4": "ASR1001-X-FANTRAY",
+                    "column_5": ""
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "hw-type-pem",
+                    "column_2": "Cisco ASR1001-X AC Power Supply",
+                    "column_3": "V02",
+                    "column_4": "ASR1001-X-PWR-AC",
+                    "column_5": "LIT244632HW"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "hw-type-pem",
+                    "column_2": "Cisco ASR1001-X AC Power Supply",
+                    "column_3": "V02",
+                    "column_4": "ASR1001-X-PWR-AC",
+                    "column_5": "LIT244632KA"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "hw-type-pim",
+                    "column_2": "8-port Gigabit Ethernet Shared Port Adapter",
+                    "column_3": "V05",
+                    "column_4": "SPA-8X1GE-V2",
+                    "column_5": "JAE252101Y4"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "hw-type-pim",
+                    "column_2": "Built-in GE SPA with 2 port 10G and 6 port 1G Interfaces",
+                    "column_3": "",
+                    "column_4": "BUILT-IN-2T+6X1GE",
+                    "column_5": ""
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "hw-type-pim",
+                    "column_2": "Cisco ASR1001-X Embedded Services Processor",
+                    "column_3": "",
+                    "column_4": "ASR1001-X",
+                    "column_5": ""
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "hw-type-pim",
+                    "column_2": "Cisco ASR1001-X Route Processor",
+                    "column_3": "V06",
+                    "column_4": "ASR1001-X",
+                    "column_5": "JAE25240PVA"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "hw-type-pim",
+                    "column_2": "Cisco ASR1001-X SPA Interface Processor",
+                    "column_3": "",
+                    "column_4": "ASR1001-X",
+                    "column_5": ""
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "hw-type-transceiver",
+                    "column_2": "GE T",
+                    "column_3": "2   ",
+                    "column_4": "ABCU-5710RZ-CS4B",
+                    "column_5": "AGM15472553     "
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "hw-type-transceiver",
+                    "column_2": "GE T",
+                    "column_3": "A   ",
+                    "column_4": "SP7041          ",
+                    "column_5": "00000MTC0845042F"
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "hw-type-transceiver",
+                    "column_2": "GE T",
+                    "column_3": "B2  ",
+                    "column_4": "ABCU-5710RZ-CS4 ",
+                    "column_5": "AGM16252C2L     "
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "hw-type-transceiver",
+                    "column_2": "GE T",
+                    "column_3": "B2  ",
+                    "column_4": "ABCU-5710RZ-CS4 ",
+                    "column_5": "AGM17312B2L     "
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "hw-type-transceiver",
+                    "column_2": "GE T",
+                    "column_3": "B2  ",
+                    "column_4": "ABCU-5710RZ-CS5 ",
+                    "column_5": "AGM20474ATL     "
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "hw-type-transceiver",
+                    "column_2": "GE T",
+                    "column_3": "V03",
+                    "column_4": "GLC-TE              ",
+                    "column_5": "ACW26031UAV     "
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "hw-type-transceiver",
+                    "column_2": "SFP+ 10GBASE-SR",
+                    "column_3": "V03",
+                    "column_4": "SFP-10G-SR          ",
+                    "column_5": "FNS24490JCG     "
+                },
+                {
+                    "column_0": "HCA-CAMPUS1-WAN-1",
+                    "column_1": "hw-type-transceiver",
+                    "column_2": "SFP+ 10GBASE-SR",
+                    "column_3": "V03",
+                    "column_4": "SFP-10G-SR          ",
+                    "column_5": "FNS24490JDB     "
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "hw-type-chassis",
+                    "column_2": "Cisco ASR1002-HX Chassis",
+                    "column_3": "V02",
+                    "column_4": "ASR1002-HX",
+                    "column_5": "FXS2315Q384"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "hw-type-cpu",
+                    "column_2": " Intel(R) Xeon(R) CPU  @ 2.50GHz",
+                    "column_3": " 6",
+                    "column_4": " GenuineIntel",
+                    "column_5": ""
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "hw-type-cpu",
+                    "column_2": "Asic 0 of module F0",
+                    "column_3": "V01",
+                    "column_4": "ASR1002HX-IPSECHW",
+                    "column_5": "JAE232303WR"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "hw-type-dram",
+                    "column_2": "Physical Memory",
+                    "column_3": "",
+                    "column_4": "",
+                    "column_5": ""
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "hw-type-fantray",
+                    "column_2": "Cisco ASR1002-HX Fan Tray",
+                    "column_3": "",
+                    "column_4": "ASR1002HX-FAN",
+                    "column_5": ""
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "hw-type-pem",
+                    "column_2": "Cisco 750 Watt AC power supply",
+                    "column_3": "V01",
+                    "column_4": "ASR1000X-AC-750W",
+                    "column_5": "POG23207X2W"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "hw-type-pem",
+                    "column_2": "Cisco 750 Watt AC power supply",
+                    "column_3": "V01",
+                    "column_4": "ASR1000X-AC-750W",
+                    "column_5": "POG23207X60"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "hw-type-pim",
+                    "column_2": "18-port Gigabit Ethernet Port Adapter",
+                    "column_3": "V01",
+                    "column_4": "EPA-18X1GE",
+                    "column_5": "JAE2315087X"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "hw-type-pim",
+                    "column_2": "8-port Built-in 10-Gigabit Ethernet Port Adapter",
+                    "column_3": "N/A",
+                    "column_4": "BUILT-IN-EPA-8x10G",
+                    "column_5": "JAE87654321"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "hw-type-pim",
+                    "column_2": "8-port Built-in Gigabit Ethernet Port Adapter",
+                    "column_3": "N/A",
+                    "column_4": "BUILT-IN-EPA-8x1G",
+                    "column_5": "JAE12345678"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "hw-type-pim",
+                    "column_2": "Cisco ASR1002-HX Embedded Services Processor",
+                    "column_3": "",
+                    "column_4": "ASR1002-HX",
+                    "column_5": ""
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "hw-type-pim",
+                    "column_2": "Cisco ASR1002-HX Modular Interface Processor",
+                    "column_3": "",
+                    "column_4": "ASR1002-HX",
+                    "column_5": ""
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "hw-type-pim",
+                    "column_2": "Cisco ASR1002-HX Route Processor",
+                    "column_3": "V02",
+                    "column_4": "ASR1002-HX",
+                    "column_5": "JAE23210XJV"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "hw-type-transceiver",
+                    "column_2": "GE T",
+                    "column_3": "F   ",
+                    "column_4": "SP7041_Rev_F    ",
+                    "column_5": "00000MTC15270AG9"
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "hw-type-transceiver",
+                    "column_2": "GE T",
+                    "column_3": "V01",
+                    "column_4": "GLC-TE              ",
+                    "column_5": "AVC225022KB     "
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "hw-type-transceiver",
+                    "column_2": "GE T",
+                    "column_3": "V01",
+                    "column_4": "GLC-TE              ",
+                    "column_5": "MTC21440D4U     "
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "hw-type-transceiver",
+                    "column_2": "GE T",
+                    "column_3": "V03",
+                    "column_4": "GLC-TE              ",
+                    "column_5": "ACW26033SDQ     "
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "hw-type-transceiver",
+                    "column_2": "GE T",
+                    "column_3": "V03",
+                    "column_4": "GLC-TE              ",
+                    "column_5": "ACW26033V8D     "
+                },
+                {
+                    "column_0": "HCA-CAMPUS2-WAN2",
+                    "column_1": "hw-type-transceiver",
+                    "column_2": "GE T",
+                    "column_3": "V03",
+                    "column_4": "GLC-TE              ",
+                    "column_5": "AVC24350DMN     "
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "hw-type-chassis",
+                    "column_2": "Cisco ISR4351 Chassis",
+                    "column_3": "V05",
+                    "column_4": "ISR4351/K9",
+                    "column_5": "FDO2338M000"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "hw-type-cpu",
+                    "column_2": " Intel(R) Atom(TM) CPU  C2758  @ 2.40GH",
+                    "column_3": " 6",
+                    "column_4": " GenuineIntel",
+                    "column_5": ""
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "hw-type-dram",
+                    "column_2": "Physical Memory",
+                    "column_3": "",
+                    "column_4": "",
+                    "column_5": ""
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "hw-type-flash",
+                    "column_2": "eMMC",
+                    "column_3": "2.11",
+                    "column_4": "4041",
+                    "column_5": "000008264001"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "hw-type-pim",
+                    "column_2": "Cisco ISR4351 Built-In NIM controller",
+                    "column_3": "",
+                    "column_4": "ISR4351/K9",
+                    "column_5": ""
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "hw-type-pim",
+                    "column_2": "Cisco ISR4351 Built-In SM controller",
+                    "column_3": "",
+                    "column_4": "ISR4351/K9",
+                    "column_5": ""
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "hw-type-pim",
+                    "column_2": "Cisco ISR4351 Built-In SM controller",
+                    "column_3": "",
+                    "column_4": "ISR4351/K9",
+                    "column_5": ""
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "hw-type-pim",
+                    "column_2": "Cisco ISR4351 Forwarding Processor",
+                    "column_3": "",
+                    "column_4": "ISR4351/K9",
+                    "column_5": ""
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "hw-type-pim",
+                    "column_2": "Cisco ISR4351 Route Processor",
+                    "column_3": "V05",
+                    "column_4": "ISR4351/K9",
+                    "column_5": "FDO233309ZS"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "hw-type-pim",
+                    "column_2": "Front Panel 3 ports Gigabitethernet Module",
+                    "column_3": "V01",
+                    "column_4": "ISR4351-3x1GE",
+                    "column_5": ""
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "hw-type-pim",
+                    "column_2": "NIM-2GE-CU-SFP",
+                    "column_3": "V02",
+                    "column_4": "NIM-2GE-CU-SFP",
+                    "column_5": "FOC22080YF0"
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "hw-type-transceiver",
+                    "column_2": "GE SX",
+                    "column_3": "V01",
+                    "column_4": "GLC-SX-MMD          ",
+                    "column_5": "ACW23140DE0     "
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "hw-type-transceiver",
+                    "column_2": "GE SX",
+                    "column_3": "V01",
+                    "column_4": "GLC-SX-MMD          ",
+                    "column_5": "ACW23140EWJ     "
+                },
+                {
+                    "column_0": "HCA-CAMPUS3-WAN-3",
+                    "column_1": "hw-type-transceiver",
+                    "column_2": "GE SX",
+                    "column_3": "V01",
+                    "column_4": "GLC-SX-MMD          ",
+                    "column_5": "OPM22480J4S     "
+                }
+            ]
+        }
+    ]
+}

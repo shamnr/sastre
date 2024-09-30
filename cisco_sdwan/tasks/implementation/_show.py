@@ -15,7 +15,7 @@ from cisco_sdwan.base.models_base import (OperationalItem, RealtimeItem, BulkSta
                                           filename_safe)
 from cisco_sdwan.base.models_vmanage import Device, Alarm, Event
 from cisco_sdwan.tasks.utils import (regex_type, ipv4_type, site_id_type, filename_type, int_type, OpCmdOptions,
-                                     TaskOptions, RTCmdSemantics, StateCmdSemantics, StatsCmdSemantics)
+                                     TaskOptions, RTCmdSemantics, StateCmdSemantics, StatsCmdSemantics, device_type_choices)
 from cisco_sdwan.tasks.common import regex_search, Task, Table, get_table_filters, filtered_tables, export_json, device_type_filter
 from cisco_sdwan.tasks.models import TableTaskArgs, validate_op_cmd, const
 from cisco_sdwan.tasks.validators import validate_site_id, validate_ipv4, validate_regex, validate_ipv4_list

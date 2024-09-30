@@ -1,0 +1,408 @@
+### control connections ###
+
+*** Control connections ***
++====================================================================================================================================================================================================================+
+| Device            | Peer System IP | Site ID | Peer Type | Local Color  | Remote Color    | State | Private IP | Private Port | Public IP  | Public Port | Instance ID | Peer Protocol | Domain ID | Up Since      |
++====================================================================================================================================================================================================================+
+| HCA-CAMPUS1-WAN-1 | 10.10.10.1     | 100     | vmanage   | mpls         | public-internet | up    | 172.16.1.1 | 12446        | 172.16.1.1 | 12446       | 0           | dtls          | 0         | 1725622080000 |
+| HCA-CAMPUS1-WAN-1 | 10.10.10.3     | 100     | vsmart    | biz-internet | public-internet | up    | 172.16.1.3 | 12446        | 172.16.1.3 | 12446       | 0           | dtls          | 1         | 1725622080000 |
+| HCA-CAMPUS1-WAN-1 | 10.10.10.3     | 100     | vsmart    | mpls         | public-internet | up    | 172.16.1.3 | 12446        | 172.16.1.3 | 12446       | 0           | dtls          | 1         | 1725622080000 |
++-------------------+----------------+---------+-----------+--------------+-----------------+-------+------------+--------------+------------+-------------+-------------+---------------+-----------+---------------+
+| HCA-CAMPUS2-WAN2  | 10.10.10.1     | 100     | vmanage   | biz-internet | public-internet | up    | 172.16.1.1 | 12646        | 172.16.1.1 | 12646       | 0           | dtls          | 0         | 1725622020000 |
+| HCA-CAMPUS2-WAN2  | 10.10.10.3     | 100     | vsmart    | biz-internet | public-internet | up    | 172.16.1.3 | 12446        | 172.16.1.3 | 12446       | 0           | dtls          | 1         | 1725622020000 |
+| HCA-CAMPUS2-WAN2  | 10.10.10.3     | 100     | vsmart    | mpls         | public-internet | up    | 172.16.1.3 | 12446        | 172.16.1.3 | 12446       | 0           | dtls          | 1         | 1725622020000 |
++-------------------+----------------+---------+-----------+--------------+-----------------+-------+------------+--------------+------------+-------------+-------------+---------------+-----------+---------------+
+| HCA-CAMPUS3-WAN-3 | 10.10.10.1     | 100     | vmanage   | mpls         | public-internet | up    | 172.16.1.1 | 12946        | 172.16.1.1 | 12946       | 0           | dtls          | 0         | 1725622020000 |
+| HCA-CAMPUS3-WAN-3 | 10.10.10.3     | 100     | vsmart    | biz-internet | public-internet | up    | 172.16.1.3 | 12346        | 172.16.1.3 | 12346       | 0           | dtls          | 1         | 1725622020000 |
+| HCA-CAMPUS3-WAN-3 | 10.10.10.3     | 100     | vsmart    | mpls         | public-internet | up    | 172.16.1.3 | 12346        | 172.16.1.3 | 12346       | 0           | dtls          | 1         | 1725622020000 |
++-------------------+----------------+---------+-----------+--------------+-----------------+-------+------------+--------------+------------+-------------+-------------+---------------+-----------+---------------+
+
+
+### system status ###
+
+*** System status ***
++==============================================================================================================+
+| Device            | State | CPU User(%) | CPU System(%) | Memory Total | Memory Free | Disk Size | Disk Used |
++==============================================================================================================+
+| HCA-CAMPUS1-WAN-1 | green | 1.20        | 1.31          | 7969788      | 3748780     | 6299M     | 3645M     |
++-------------------+-------+-------------+---------------+--------------+-------------+-----------+-----------+
+| HCA-CAMPUS2-WAN2  | green | 2.98        | 3.70          | 16177528     | 11858388    | 28260M    | 2740M     |
++-------------------+-------+-------------+---------------+--------------+-------------+-----------+-----------+
+| HCA-CAMPUS3-WAN-3 | green | 10.35       | 6.45          | 4007468      | 1183336     | 3107M     | 1918M     |
++-------------------+-------+-------------+---------------+--------------+-------------+-----------+-----------+
+
+
+### omp summary ###
+
+*** OMP summary ***
++========================================================================================================================================================================================================================================================================+
+| Device            | Operational State | OMP Uptime      | vSmart Peers | Routes Received | Routes Installed | Routes Sent | TLOCs Received | TLOCs Installed | TLOCs Sent | Services Received | Services Installed | Services Sent | Policies Received | Policies Sent |
++========================================================================================================================================================================================================================================================================+
+| HCA-CAMPUS1-WAN-1 | UP                | 1y 305:16:35:36 | 1            | 223             | 157              | 46          | 9              | 7               | 2          | 2                 | 0                  | 2             | 4                 | 0             |
++-------------------+-------------------+-----------------+--------------+-----------------+------------------+-------------+----------------+-----------------+------------+-------------------+--------------------+---------------+-------------------+---------------+
+| HCA-CAMPUS2-WAN2  | UP                | 152:22:52:08    | 1            | 219             | 93               | 126         | 9              | 7               | 2          | 2                 | 0                  | 2             | 0                 | 0             |
++-------------------+-------------------+-----------------+--------------+-----------------+------------------+-------------+----------------+-----------------+------------+-------------------+--------------------+---------------+-------------------+---------------+
+| HCA-CAMPUS3-WAN-3 | UP                | 152:19:36:00    | 1            | 219             | 187              | 32          | 9              | 7               | 2          | 2                 | 0                  | 2             | 0                 | 0             |
++-------------------+-------------------+-----------------+--------------+-----------------+------------------+-------------+----------------+-----------------+------------+-------------------+--------------------+---------------+-------------------+---------------+
+
+
+### bfd sessions ###
+
+*** BFD sessions ***
++=====================================================================================================================================================================================================+
+| Device            | System IP   | Site ID | Source TLOC Color | Remote TLOC Color | State | Source IP | Source Port | Destination Public IP | Destination Public Port | Transitions | Up Since      |
++=====================================================================================================================================================================================================+
+| HCA-CAMPUS1-WAN-1 | 10.10.10.12 | 101     | biz-internet      | biz-internet      | up    | 200.1.1.1 | 12366       | 200.1.1.2             | 12406                   | 0           | 1725622080000 |
+| HCA-CAMPUS1-WAN-1 | 10.10.10.12 | 101     | biz-internet      | mpls              | up    | 200.1.1.1 | 12366       | 100.1.1.2             | 12406                   | 0           | 1725622080000 |
+| HCA-CAMPUS1-WAN-1 | 10.10.10.12 | 101     | mpls              | biz-internet      | up    | 100.1.1.1 | 12406       | 200.1.1.2             | 12406                   | 0           | 1725622080000 |
+| HCA-CAMPUS1-WAN-1 | 10.10.10.12 | 101     | mpls              | mpls              | up    | 100.1.1.1 | 12406       | 100.1.1.2             | 12406                   | 0           | 1725622080000 |
+| HCA-CAMPUS1-WAN-1 | 10.10.10.13 | 102     | biz-internet      | biz-internet      | up    | 200.1.1.1 | 12366       | 200.1.1.3             | 12426                   | 0           | 1725622080000 |
+| HCA-CAMPUS1-WAN-1 | 10.10.10.13 | 102     | biz-internet      | mpls              | up    | 200.1.1.1 | 12366       | 100.1.1.3             | 12426                   | 0           | 1725622080000 |
+| HCA-CAMPUS1-WAN-1 | 10.10.10.13 | 102     | mpls              | biz-internet      | up    | 100.1.1.1 | 12406       | 200.1.1.3             | 12426                   | 0           | 1725622080000 |
+| HCA-CAMPUS1-WAN-1 | 10.10.10.13 | 102     | mpls              | mpls              | up    | 100.1.1.1 | 12406       | 100.1.1.3             | 12426                   | 0           | 1725622080000 |
+| HCA-CAMPUS1-WAN-1 | 10.10.10.14 | 103     | biz-internet      | biz-internet      | up    | 200.1.1.1 | 12366       | 200.1.1.4             | 12406                   | 2           | 1725622080000 |
+| HCA-CAMPUS1-WAN-1 | 10.10.10.14 | 103     | biz-internet      | mpls              | up    | 200.1.1.1 | 12366       | 100.1.1.4             | 12426                   | 1           | 1725622080000 |
+| HCA-CAMPUS1-WAN-1 | 10.10.10.14 | 103     | mpls              | biz-internet      | up    | 100.1.1.1 | 12406       | 200.1.1.4             | 12406                   | 1           | 1725622080000 |
+| HCA-CAMPUS1-WAN-1 | 10.10.10.14 | 103     | mpls              | mpls              | up    | 100.1.1.1 | 12406       | 100.1.1.4             | 12426                   | 0           | 1725622080000 |
+| HCA-CAMPUS1-WAN-1 | 10.10.10.15 | 104     | biz-internet      | biz-internet      | up    | 200.1.1.1 | 12366       | 200.1.1.5             | 12406                   | 1           | 1726637640000 |
+| HCA-CAMPUS1-WAN-1 | 10.10.10.15 | 104     | mpls              | biz-internet      | up    | 100.1.1.1 | 12406       | 200.1.1.5             | 12406                   | 1           | 1726637640000 |
++-------------------+-------------+---------+-------------------+-------------------+-------+-----------+-------------+-----------------------+-------------------------+-------------+---------------+
+| HCA-CAMPUS2-WAN2  | 10.10.10.11 | 100     | biz-internet      | biz-internet      | up    | 200.1.1.2 | 12406       | 200.1.1.1             | 12366                   | 0           | 1725622020000 |
+| HCA-CAMPUS2-WAN2  | 10.10.10.11 | 100     | biz-internet      | mpls              | up    | 200.1.1.2 | 12406       | 100.1.1.1             | 12406                   | 1           | 1725622020000 |
+| HCA-CAMPUS2-WAN2  | 10.10.10.11 | 100     | mpls              | biz-internet      | up    | 100.1.1.2 | 12406       | 200.1.1.1             | 12366                   | 1           | 1725622020000 |
+| HCA-CAMPUS2-WAN2  | 10.10.10.11 | 100     | mpls              | mpls              | up    | 100.1.1.2 | 12406       | 100.1.1.1             | 12406                   | 0           | 1725622020000 |
+| HCA-CAMPUS2-WAN2  | 10.10.10.13 | 102     | biz-internet      | biz-internet      | up    | 200.1.1.2 | 12406       | 200.1.1.3             | 12426                   | 0           | 1725622020000 |
+| HCA-CAMPUS2-WAN2  | 10.10.10.13 | 102     | biz-internet      | mpls              | up    | 200.1.1.2 | 12406       | 100.1.1.3             | 12426                   | 0           | 1725622020000 |
+| HCA-CAMPUS2-WAN2  | 10.10.10.13 | 102     | mpls              | biz-internet      | up    | 100.1.1.2 | 12406       | 200.1.1.3             | 12426                   | 0           | 1725622020000 |
+| HCA-CAMPUS2-WAN2  | 10.10.10.13 | 102     | mpls              | mpls              | up    | 100.1.1.2 | 12406       | 100.1.1.3             | 12426                   | 0           | 1725622020000 |
+| HCA-CAMPUS2-WAN2  | 10.10.10.14 | 103     | biz-internet      | biz-internet      | up    | 200.1.1.2 | 12406       | 200.1.1.4             | 12406                   | 0           | 1725622020000 |
+| HCA-CAMPUS2-WAN2  | 10.10.10.14 | 103     | biz-internet      | mpls              | up    | 200.1.1.2 | 12406       | 100.1.1.4             | 12426                   | 1           | 1725622020000 |
+| HCA-CAMPUS2-WAN2  | 10.10.10.14 | 103     | mpls              | biz-internet      | up    | 100.1.1.2 | 12406       | 200.1.1.4             | 12406                   | 1           | 1725622020000 |
+| HCA-CAMPUS2-WAN2  | 10.10.10.14 | 103     | mpls              | mpls              | up    | 100.1.1.2 | 12406       | 100.1.1.4             | 12426                   | 0           | 1725622020000 |
+| HCA-CAMPUS2-WAN2  | 10.10.10.15 | 104     | biz-internet      | biz-internet      | up    | 200.1.1.2 | 12406       | 200.1.1.5             | 12406                   | 1           | 1726637580000 |
+| HCA-CAMPUS2-WAN2  | 10.10.10.15 | 104     | mpls              | biz-internet      | up    | 100.1.1.2 | 12406       | 200.1.1.5             | 12406                   | 1           | 1726637580000 |
++-------------------+-------------+---------+-------------------+-------------------+-------+-----------+-------------+-----------------------+-------------------------+-------------+---------------+
+| HCA-CAMPUS3-WAN-3 | 10.10.10.11 | 100     | biz-internet      | biz-internet      | up    | 200.1.1.3 | 12426       | 200.1.1.1             | 12366                   | 0           | 1725622020000 |
+| HCA-CAMPUS3-WAN-3 | 10.10.10.11 | 100     | biz-internet      | mpls              | up    | 200.1.1.3 | 12426       | 100.1.1.1             | 12406                   | 0           | 1725622020000 |
+| HCA-CAMPUS3-WAN-3 | 10.10.10.11 | 100     | mpls              | biz-internet      | up    | 100.1.1.3 | 12426       | 200.1.1.1             | 12366                   | 1           | 1725622020000 |
+| HCA-CAMPUS3-WAN-3 | 10.10.10.11 | 100     | mpls              | mpls              | up    | 100.1.1.3 | 12426       | 100.1.1.1             | 12406                   | 0           | 1725622020000 |
+| HCA-CAMPUS3-WAN-3 | 10.10.10.12 | 101     | biz-internet      | biz-internet      | up    | 200.1.1.3 | 12426       | 200.1.1.2             | 12406                   | 0           | 1725622020000 |
+| HCA-CAMPUS3-WAN-3 | 10.10.10.12 | 101     | biz-internet      | mpls              | up    | 200.1.1.3 | 12426       | 100.1.1.2             | 12406                   | 0           | 1725622020000 |
+| HCA-CAMPUS3-WAN-3 | 10.10.10.12 | 101     | mpls              | biz-internet      | up    | 100.1.1.3 | 12426       | 200.1.1.2             | 12406                   | 0           | 1725622020000 |
+| HCA-CAMPUS3-WAN-3 | 10.10.10.12 | 101     | mpls              | mpls              | up    | 100.1.1.3 | 12426       | 100.1.1.2             | 12406                   | 0           | 1725622020000 |
+| HCA-CAMPUS3-WAN-3 | 10.10.10.14 | 103     | biz-internet      | biz-internet      | up    | 200.1.1.3 | 12426       | 200.1.1.4             | 12406                   | 1           | 1725622020000 |
+| HCA-CAMPUS3-WAN-3 | 10.10.10.14 | 103     | biz-internet      | mpls              | up    | 200.1.1.3 | 12426       | 100.1.1.4             | 12426                   | 0           | 1725622020000 |
+| HCA-CAMPUS3-WAN-3 | 10.10.10.14 | 103     | mpls              | biz-internet      | up    | 100.1.1.3 | 12426       | 200.1.1.4             | 12406                   | 1           | 1725622020000 |
+| HCA-CAMPUS3-WAN-3 | 10.10.10.14 | 103     | mpls              | mpls              | up    | 100.1.1.3 | 12426       | 100.1.1.4             | 12426                   | 0           | 1725622020000 |
+| HCA-CAMPUS3-WAN-3 | 10.10.10.15 | 104     | biz-internet      | biz-internet      | up    | 200.1.1.3 | 12426       | 200.1.1.5             | 12406                   | 1           | 1726637580000 |
+| HCA-CAMPUS3-WAN-3 | 10.10.10.15 | 104     | mpls              | biz-internet      | up    | 100.1.1.3 | 12426       | 200.1.1.5             | 12406                   | 1           | 1726637580000 |
++-------------------+-------------+---------+-------------------+-------------------+-------+-----------+-------------+-----------------------+-------------------------+-------------+---------------+
+
+
+### control local-properties ###
+
+*** Control local-properties ***
++===========================================================================================================================================================================================================================+
+| Device            | System IP   | Site ID | Device Type | Organization Name | Domain ID | Port Hopped | Protocol | TLS Port | Certificate Status | Root CA Chain Status | Certificate Validity | Certificate Expiry Date  |
++===========================================================================================================================================================================================================================+
+| HCA-CAMPUS1-WAN-1 | 10.10.10.11 | 100     | vedge       | HCA               | 1         | TRUE        | dtls     | 0        | Installed          | Installed            | Valid                | May 14 20:25:41 2029 GMT |
++-------------------+-------------+---------+-------------+-------------------+-----------+-------------+----------+----------+--------------------+----------------------+----------------------+--------------------------+
+| HCA-CAMPUS2-WAN2  | 10.10.10.12 | 101     | vedge       | HCA               | 1         | TRUE        | dtls     | 0        | Installed          | Installed            | Valid                | May 14 20:25:41 2029 GMT |
++-------------------+-------------+---------+-------------+-------------------+-----------+-------------+----------+----------+--------------------+----------------------+----------------------+--------------------------+
+| HCA-CAMPUS3-WAN-3 | 10.10.10.13 | 102     | vedge       | HCA               | 1         | TRUE        | dtls     | 0        | Installed          | Installed            | Valid                | May 14 20:25:41 2029 GMT |
++-------------------+-------------+---------+-------------+-------------------+-----------+-------------+----------+----------+--------------------+----------------------+----------------------+--------------------------+
+
+
+### tunnel stats ###
+
+*** Tunnel statistics ***
++==================================================================================================================================================================================+
+| Device            | Remote System IP | Local Color  | Remote Color | Tunnel Protocol | Tunnel MTU | TCP MSS Adjust | Source IP | Destination IP | Source Port | Destination Port |
++==================================================================================================================================================================================+
+| HCA-CAMPUS1-WAN-1 | 10.10.10.12      | biz-internet | biz-internet | ipsec           | 1438       | 1358           | 200.1.1.1 | 200.1.1.2      | 12366       | 12406            |
+| HCA-CAMPUS1-WAN-1 | 10.10.10.12      | biz-internet | mpls         | ipsec           | 1438       | 1358           | 200.1.1.1 | 100.1.1.2      | 12366       | 12406            |
+| HCA-CAMPUS1-WAN-1 | 10.10.10.12      | mpls         | biz-internet | ipsec           | 1438       | 1358           | 100.1.1.1 | 200.1.1.2      | 12406       | 12406            |
+| HCA-CAMPUS1-WAN-1 | 10.10.10.12      | mpls         | mpls         | ipsec           | 1438       | 1358           | 100.1.1.1 | 100.1.1.2      | 12406       | 12406            |
+| HCA-CAMPUS1-WAN-1 | 10.10.10.13      | biz-internet | biz-internet | ipsec           | 1438       | 1358           | 200.1.1.1 | 200.1.1.3      | 12366       | 12426            |
+| HCA-CAMPUS1-WAN-1 | 10.10.10.13      | biz-internet | mpls         | ipsec           | 1438       | 1358           | 200.1.1.1 | 100.1.1.3      | 12366       | 12426            |
+| HCA-CAMPUS1-WAN-1 | 10.10.10.13      | mpls         | biz-internet | ipsec           | 1438       | 1358           | 100.1.1.1 | 200.1.1.3      | 12406       | 12426            |
+| HCA-CAMPUS1-WAN-1 | 10.10.10.13      | mpls         | mpls         | ipsec           | 1438       | 1358           | 100.1.1.1 | 100.1.1.3      | 12406       | 12426            |
+| HCA-CAMPUS1-WAN-1 | 10.10.10.14      | biz-internet | biz-internet | ipsec           | 1438       | 1358           | 200.1.1.1 | 200.1.1.4      | 12366       | 12406            |
+| HCA-CAMPUS1-WAN-1 | 10.10.10.14      | biz-internet | mpls         | ipsec           | 1438       | 1358           | 200.1.1.1 | 100.1.1.4      | 12366       | 12426            |
+| HCA-CAMPUS1-WAN-1 | 10.10.10.14      | mpls         | biz-internet | ipsec           | 1438       | 1358           | 100.1.1.1 | 200.1.1.4      | 12406       | 12406            |
+| HCA-CAMPUS1-WAN-1 | 10.10.10.14      | mpls         | mpls         | ipsec           | 1438       | 1358           | 100.1.1.1 | 100.1.1.4      | 12406       | 12426            |
+| HCA-CAMPUS1-WAN-1 | 10.10.10.15      | biz-internet | biz-internet | ipsec           | 1438       | 1358           | 200.1.1.1 | 200.1.1.5      | 12366       | 12406            |
+| HCA-CAMPUS1-WAN-1 | 10.10.10.15      | mpls         | biz-internet | ipsec           | 1438       | 1358           | 100.1.1.1 | 200.1.1.5      | 12406       | 12406            |
++-------------------+------------------+--------------+--------------+-----------------+------------+----------------+-----------+----------------+-------------+------------------+
+| HCA-CAMPUS2-WAN2  | 10.10.10.11      | biz-internet | biz-internet | ipsec           | 1438       | 1358           | 200.1.1.2 | 200.1.1.1      | 12406       | 12366            |
+| HCA-CAMPUS2-WAN2  | 10.10.10.11      | biz-internet | mpls         | ipsec           | 1438       | 1358           | 200.1.1.2 | 100.1.1.1      | 12406       | 12406            |
+| HCA-CAMPUS2-WAN2  | 10.10.10.11      | mpls         | biz-internet | ipsec           | 1438       | 1358           | 100.1.1.2 | 200.1.1.1      | 12406       | 12366            |
+| HCA-CAMPUS2-WAN2  | 10.10.10.11      | mpls         | mpls         | ipsec           | 1438       | 1358           | 100.1.1.2 | 100.1.1.1      | 12406       | 12406            |
+| HCA-CAMPUS2-WAN2  | 10.10.10.13      | biz-internet | biz-internet | ipsec           | 1438       | 1358           | 200.1.1.2 | 200.1.1.3      | 12406       | 12426            |
+| HCA-CAMPUS2-WAN2  | 10.10.10.13      | biz-internet | mpls         | ipsec           | 1438       | 1358           | 200.1.1.2 | 100.1.1.3      | 12406       | 12426            |
+| HCA-CAMPUS2-WAN2  | 10.10.10.13      | mpls         | biz-internet | ipsec           | 1438       | 1358           | 100.1.1.2 | 200.1.1.3      | 12406       | 12426            |
+| HCA-CAMPUS2-WAN2  | 10.10.10.13      | mpls         | mpls         | ipsec           | 1438       | 1358           | 100.1.1.2 | 100.1.1.3      | 12406       | 12426            |
+| HCA-CAMPUS2-WAN2  | 10.10.10.14      | biz-internet | biz-internet | ipsec           | 1438       | 1358           | 200.1.1.2 | 200.1.1.4      | 12406       | 12406            |
+| HCA-CAMPUS2-WAN2  | 10.10.10.14      | biz-internet | mpls         | ipsec           | 1438       | 1358           | 200.1.1.2 | 100.1.1.4      | 12406       | 12426            |
+| HCA-CAMPUS2-WAN2  | 10.10.10.14      | mpls         | biz-internet | ipsec           | 1438       | 1358           | 100.1.1.2 | 200.1.1.4      | 12406       | 12406            |
+| HCA-CAMPUS2-WAN2  | 10.10.10.14      | mpls         | mpls         | ipsec           | 1438       | 1358           | 100.1.1.2 | 100.1.1.4      | 12406       | 12426            |
+| HCA-CAMPUS2-WAN2  | 10.10.10.15      | biz-internet | biz-internet | ipsec           | 1438       | 1358           | 200.1.1.2 | 200.1.1.5      | 12406       | 12406            |
+| HCA-CAMPUS2-WAN2  | 10.10.10.15      | mpls         | biz-internet | ipsec           | 1438       | 1358           | 100.1.1.2 | 200.1.1.5      | 12406       | 12406            |
++-------------------+------------------+--------------+--------------+-----------------+------------+----------------+-----------+----------------+-------------+------------------+
+| HCA-CAMPUS3-WAN-3 | 10.10.10.11      | biz-internet | biz-internet | ipsec           | 1438       | 1358           | 200.1.1.3 | 200.1.1.1      | 12426       | 12366            |
+| HCA-CAMPUS3-WAN-3 | 10.10.10.11      | biz-internet | mpls         | ipsec           | 1438       | 1358           | 200.1.1.3 | 100.1.1.1      | 12426       | 12406            |
+| HCA-CAMPUS3-WAN-3 | 10.10.10.11      | mpls         | biz-internet | ipsec           | 1438       | 1358           | 100.1.1.3 | 200.1.1.1      | 12426       | 12366            |
+| HCA-CAMPUS3-WAN-3 | 10.10.10.11      | mpls         | mpls         | ipsec           | 1438       | 1358           | 100.1.1.3 | 100.1.1.1      | 12426       | 12406            |
+| HCA-CAMPUS3-WAN-3 | 10.10.10.12      | biz-internet | biz-internet | ipsec           | 1438       | 1358           | 200.1.1.3 | 200.1.1.2      | 12426       | 12406            |
+| HCA-CAMPUS3-WAN-3 | 10.10.10.12      | biz-internet | mpls         | ipsec           | 1438       | 1358           | 200.1.1.3 | 100.1.1.2      | 12426       | 12406            |
+| HCA-CAMPUS3-WAN-3 | 10.10.10.12      | mpls         | biz-internet | ipsec           | 1438       | 1358           | 100.1.1.3 | 200.1.1.2      | 12426       | 12406            |
+| HCA-CAMPUS3-WAN-3 | 10.10.10.12      | mpls         | mpls         | ipsec           | 1438       | 1358           | 100.1.1.3 | 100.1.1.2      | 12426       | 12406            |
+| HCA-CAMPUS3-WAN-3 | 10.10.10.14      | biz-internet | biz-internet | ipsec           | 1438       | 1358           | 200.1.1.3 | 200.1.1.4      | 12426       | 12406            |
+| HCA-CAMPUS3-WAN-3 | 10.10.10.14      | biz-internet | mpls         | ipsec           | 1438       | 1358           | 200.1.1.3 | 100.1.1.4      | 12426       | 12426            |
+| HCA-CAMPUS3-WAN-3 | 10.10.10.14      | mpls         | biz-internet | ipsec           | 1438       | 1358           | 100.1.1.3 | 200.1.1.4      | 12426       | 12406            |
+| HCA-CAMPUS3-WAN-3 | 10.10.10.14      | mpls         | mpls         | ipsec           | 1438       | 1358           | 100.1.1.3 | 100.1.1.4      | 12426       | 12426            |
+| HCA-CAMPUS3-WAN-3 | 10.10.10.15      | biz-internet | biz-internet | ipsec           | 1438       | 1358           | 200.1.1.3 | 200.1.1.5      | 12426       | 12406            |
+| HCA-CAMPUS3-WAN-3 | 10.10.10.15      | mpls         | biz-internet | ipsec           | 1438       | 1358           | 100.1.1.3 | 200.1.1.5      | 12426       | 12406            |
++-------------------+------------------+--------------+--------------+-----------------+------------+----------------+-----------+----------------+-------------+------------------+
+
+
+### software info ###
+
+*** Software info ***
++=====================================================================+
+| Device            | Version          | Active | Default | Confirmed |
++=====================================================================+
+| HCA-CAMPUS1-WAN-1 | 17.03.03.0.4762  | false  | false   | auto      |
+| HCA-CAMPUS1-WAN-1 | 17.03.05.0.6600  | false  | false   | user      |
+| HCA-CAMPUS1-WAN-1 | 17.06.04.0.4912  | true   | true    | user      |
++-------------------+------------------+--------+---------+-----------+
+| HCA-CAMPUS2-WAN2  | 17.03.05.0.6600  | false  | false   | user      |
+| HCA-CAMPUS2-WAN2  | 17.06.04.0.4912  | false  | false   | user      |
+| HCA-CAMPUS2-WAN2  | 17.09.05a.0.6476 | true   | true    | user      |
++-------------------+------------------+--------+---------+-----------+
+| HCA-CAMPUS3-WAN-3 | 17.09.05a.0.6476 | true   | true    | user      |
+| HCA-CAMPUS3-WAN-3 | 17.12.01a.0.118  | false  | false   | auto      |
++-------------------+------------------+--------+---------+-----------+
+
+
+### hardware environment ###
+
+*** hardware environment ***
++=============================================================================================================+
+| Device            | Name           | Sensor Name | State         | Current reading | Sensor units           |
++=============================================================================================================+
+| HCA-CAMPUS1-WAN-1 | PEM Iout       | current     | Normal        | 0               | amperes                |
+| HCA-CAMPUS1-WAN-1 | PEM Iout       | current     | Normal        | 9               | amperes                |
+| HCA-CAMPUS1-WAN-1 | PEM Vin        | voltage     | Normal        | 0               | volts-ac               |
+| HCA-CAMPUS1-WAN-1 | PEM Vin        | voltage     | Normal        | 228             | volts-ac               |
+| HCA-CAMPUS1-WAN-1 | PEM Vout       | voltage     | Normal        | 0               | volts-dc               |
+| HCA-CAMPUS1-WAN-1 | PEM Vout       | voltage     | Normal        | 12              | volts-dc               |
+| HCA-CAMPUS1-WAN-1 | Temp: CPU Die  | temperature | Normal        | 37              | celsius                |
+| HCA-CAMPUS1-WAN-1 | Temp: CPU Inlt | temperature | Normal        | 33              | celsius                |
+| HCA-CAMPUS1-WAN-1 | Temp: CPU VRM  | temperature | Normal        | 31              | celsius                |
+| HCA-CAMPUS1-WAN-1 | Temp: Center   | temperature | Normal        | 46              | celsius                |
+| HCA-CAMPUS1-WAN-1 | Temp: FC FAN0  | temperature | Fan Speed 60% | 31              | celsius                |
+| HCA-CAMPUS1-WAN-1 | Temp: FC FAN1  | temperature | Fan Speed 60% | 31              | celsius                |
+| HCA-CAMPUS1-WAN-1 | Temp: FC FANS  | temperature | Fan Speed 60% | 31              | celsius                |
+| HCA-CAMPUS1-WAN-1 | Temp: Inlet    | temperature | Normal        | 31              | celsius                |
+| HCA-CAMPUS1-WAN-1 | Temp: Oct Die  | temperature | Normal        | 50              | celsius                |
+| HCA-CAMPUS1-WAN-1 | Temp: Outlet   | temperature | Normal        | 45              | celsius                |
+| HCA-CAMPUS1-WAN-1 | Temp: PEM In   | temperature | Normal        | 32              | celsius                |
+| HCA-CAMPUS1-WAN-1 | Temp: PEM In   | temperature | Normal        | 40              | celsius                |
+| HCA-CAMPUS1-WAN-1 | Temp: PEM Int  | temperature | Normal        | 35              | celsius                |
+| HCA-CAMPUS1-WAN-1 | Temp: PEM Int  | temperature | Normal        | 41              | celsius                |
+| HCA-CAMPUS1-WAN-1 | Temp: PEM Out  | temperature | Normal        | 0               | celsius                |
+| HCA-CAMPUS1-WAN-1 | Temp: PEM Out  | temperature | Normal        | 36              | celsius                |
+| HCA-CAMPUS1-WAN-1 | Temp: QFP Die  | temperature | Normal        | 49              | celsius                |
+| HCA-CAMPUS1-WAN-1 | Temp: sTCAM    | temperature | Normal        | 39              | celsius                |
+| HCA-CAMPUS1-WAN-1 | VVM 0: VH      | voltage     | Normal        | 11888           | millivolts             |
+| HCA-CAMPUS1-WAN-1 | VVM 0: VP1     | voltage     | Normal        | 5086            | millivolts             |
+| HCA-CAMPUS1-WAN-1 | VVM 0: VP3     | voltage     | Normal        | 1507            | millivolts             |
+| HCA-CAMPUS1-WAN-1 | VVM 0: VP4     | voltage     | Normal        | 1790            | millivolts             |
+| HCA-CAMPUS1-WAN-1 | VVM 0: VX1     | voltage     | Normal        | 1510            | millivolts             |
+| HCA-CAMPUS1-WAN-1 | VVM 0: VX2     | voltage     | Normal        | 753             | millivolts             |
+| HCA-CAMPUS1-WAN-1 | VVM 0: VX3     | voltage     | Normal        | 1006            | millivolts             |
+| HCA-CAMPUS1-WAN-1 | VVM 0: VX4     | voltage     | Normal        | 1057            | millivolts             |
+| HCA-CAMPUS1-WAN-1 | VVM 0: VX5     | voltage     | Normal        | 819             | millivolts             |
+| HCA-CAMPUS1-WAN-1 | VVM 1: VH      | voltage     | Normal        | 11883           | millivolts             |
+| HCA-CAMPUS1-WAN-1 | VVM 1: VP2     | voltage     | Normal        | 3347            | millivolts             |
+| HCA-CAMPUS1-WAN-1 | VVM 1: VP3     | voltage     | Normal        | 1786            | millivolts             |
+| HCA-CAMPUS1-WAN-1 | VVM 1: VP4     | voltage     | Normal        | 995             | millivolts             |
+| HCA-CAMPUS1-WAN-1 | VVM 1: VX1     | voltage     | Normal        | 1193            | millivolts             |
+| HCA-CAMPUS1-WAN-1 | VVM 1: VX2     | voltage     | Normal        | 801             | millivolts             |
+| HCA-CAMPUS1-WAN-1 | VVM 1: VX3     | voltage     | Normal        | 882             | millivolts             |
+| HCA-CAMPUS1-WAN-1 | VVM 1: VX4     | voltage     | Normal        | 996             | millivolts             |
+| HCA-CAMPUS1-WAN-1 | VVM 1: VX5     | voltage     | Normal        | 875             | millivolts             |
+| HCA-CAMPUS1-WAN-1 | VVM 2: AUX1    | voltage     | Normal        | 751             | millivolts             |
+| HCA-CAMPUS1-WAN-1 | VVM 2: AUX2    | voltage     | Normal        | 753             | millivolts             |
+| HCA-CAMPUS1-WAN-1 | VVM 2: VH      | voltage     | Normal        | 11877           | millivolts             |
+| HCA-CAMPUS1-WAN-1 | VVM 2: VP2     | voltage     | Normal        | 1532            | millivolts             |
+| HCA-CAMPUS1-WAN-1 | VVM 2: VP3     | voltage     | Normal        | 1510            | millivolts             |
+| HCA-CAMPUS1-WAN-1 | VVM 2: VP4     | voltage     | Normal        | 2497            | millivolts             |
+| HCA-CAMPUS1-WAN-1 | VVM 2: VX1     | voltage     | Normal        | 1110            | millivolts             |
+| HCA-CAMPUS1-WAN-1 | VVM 2: VX2     | voltage     | Normal        | 1101            | millivolts             |
+| HCA-CAMPUS1-WAN-1 | VVM 2: VX3     | voltage     | Normal        | 1206            | millivolts             |
+| HCA-CAMPUS1-WAN-1 | VVM 2: VX4     | voltage     | Normal        | 2478            | millivolts             |
+| HCA-CAMPUS1-WAN-1 | VVM 2: VX5     | voltage     | Normal        | 962             | millivolts             |
++-------------------+----------------+-------------+---------------+-----------------+------------------------+
+| HCA-CAMPUS2-WAN2  | Iin            | current     | Normal        | 0               | amperes                |
+| HCA-CAMPUS2-WAN2  | Iin            | current     | Normal        | 2               | amperes                |
+| HCA-CAMPUS2-WAN2  | Iout           | current     | Normal        | 0               | amperes                |
+| HCA-CAMPUS2-WAN2  | Iout           | current     | Normal        | 27              | amperes                |
+| HCA-CAMPUS2-WAN2  | Temp1          | temperature | Normal        | 23              | celsius                |
+| HCA-CAMPUS2-WAN2  | Temp1          | temperature | Normal        | 24              | celsius                |
+| HCA-CAMPUS2-WAN2  | Temp2          | temperature | Normal        | 25              | celsius                |
+| HCA-CAMPUS2-WAN2  | Temp2          | temperature | Normal        | 31              | celsius                |
+| HCA-CAMPUS2-WAN2  | Temp3          | temperature | Normal        | 34              | celsius                |
+| HCA-CAMPUS2-WAN2  | Temp3          | temperature | Normal        | 35              | celsius                |
+| HCA-CAMPUS2-WAN2  | Temp: CPU Die  | temperature | Normal        | 32              | celsius                |
+| HCA-CAMPUS2-WAN2  | Temp: FC FANS  | temperature | Fan Speed 60% | 24              | celsius                |
+| HCA-CAMPUS2-WAN2  | Temp: LIB IN   | temperature | Normal        | 28              | celsius                |
+| HCA-CAMPUS2-WAN2  | Temp: LIB OUT  | temperature | Normal        | 41              | celsius                |
+| HCA-CAMPUS2-WAN2  | Temp: PPB IN   | temperature | Normal        | 24              | celsius                |
+| HCA-CAMPUS2-WAN2  | Temp: PPB OUT  | temperature | Normal        | 50              | celsius                |
+| HCA-CAMPUS2-WAN2  | Temp: Yoda 0   | temperature | Normal        | 66              | celsius                |
+| HCA-CAMPUS2-WAN2  | Temp: Yoda 1   | temperature | Normal        | 60              | celsius                |
+| HCA-CAMPUS2-WAN2  | VLIB1: VH      | voltage     | Normal        | 5038            | millivolts             |
+| HCA-CAMPUS2-WAN2  | VLIB1: VP1     | voltage     | Normal        | 1800            | millivolts             |
+| HCA-CAMPUS2-WAN2  | VLIB1: VP2     | voltage     | Normal        | 2501            | millivolts             |
+| HCA-CAMPUS2-WAN2  | VLIB1: VP3     | voltage     | Normal        | 3303            | millivolts             |
+| HCA-CAMPUS2-WAN2  | VLIB1: VX1     | voltage     | Normal        | 1000            | millivolts             |
+| HCA-CAMPUS2-WAN2  | VLIB1: VX2     | voltage     | Normal        | 7098            | millivolts             |
+| HCA-CAMPUS2-WAN2  | VLIB1: VX3     | voltage     | Normal        | 948             | millivolts             |
+| HCA-CAMPUS2-WAN2  | VLIB2: VH      | voltage     | Normal        | 11966           | millivolts             |
+| HCA-CAMPUS2-WAN2  | VLIB2: VP1     | voltage     | Normal        | 1009            | millivolts             |
+| HCA-CAMPUS2-WAN2  | VLIB2: VP2     | voltage     | Normal        | 977             | millivolts             |
+| HCA-CAMPUS2-WAN2  | VLIB2: VP3     | voltage     | Normal        | 1198            | millivolts             |
+| HCA-CAMPUS2-WAN2  | VLIB2: VP4     | voltage     | Normal        | 1518            | millivolts             |
+| HCA-CAMPUS2-WAN2  | VLIB2: VX2     | voltage     | Normal        | 752             | millivolts             |
+| HCA-CAMPUS2-WAN2  | VLIB2: VX3     | voltage     | Normal        | 750             | millivolts             |
+| HCA-CAMPUS2-WAN2  | VPPB1: VH      | voltage     | Normal        | 11951           | millivolts             |
+| HCA-CAMPUS2-WAN2  | VPPB1: VP1     | voltage     | Normal        | 1792            | millivolts             |
+| HCA-CAMPUS2-WAN2  | VPPB1: VP2     | voltage     | Normal        | 1514            | millivolts             |
+| HCA-CAMPUS2-WAN2  | VPPB1: VP3     | voltage     | Normal        | 1508            | millivolts             |
+| HCA-CAMPUS2-WAN2  | VPPB1: VP4     | voltage     | Normal        | 5079            | millivolts             |
+| HCA-CAMPUS2-WAN2  | VPPB1: VX1     | voltage     | Normal        | 1003            | millivolts             |
+| HCA-CAMPUS2-WAN2  | VPPB1: VX2     | voltage     | Normal        | 6874            | millivolts             |
+| HCA-CAMPUS2-WAN2  | VPPB1: VX3     | voltage     | Normal        | 756             | millivolts             |
+| HCA-CAMPUS2-WAN2  | VPPB1: VX4     | voltage     | Normal        | 1051            | millivolts             |
+| HCA-CAMPUS2-WAN2  | VPPB2: VH      | voltage     | Normal        | 11951           | millivolts             |
+| HCA-CAMPUS2-WAN2  | VPPB2: VP2     | voltage     | Normal        | 3305            | millivolts             |
+| HCA-CAMPUS2-WAN2  | VPPB2: VX2     | voltage     | Normal        | 814             | millivolts             |
+| HCA-CAMPUS2-WAN2  | VPPB2: VX3     | voltage     | Normal        | 853             | millivolts             |
+| HCA-CAMPUS2-WAN2  | VPPB3: VH      | voltage     | Normal        | 11966           | millivolts             |
+| HCA-CAMPUS2-WAN2  | VPPB3: VP1     | voltage     | Normal        | 2509            | millivolts             |
+| HCA-CAMPUS2-WAN2  | VPPB3: VP2     | voltage     | Normal        | 1197            | millivolts             |
+| HCA-CAMPUS2-WAN2  | VPPB3: VP3     | voltage     | Normal        | 1510            | millivolts             |
+| HCA-CAMPUS2-WAN2  | VPPB3: VP4     | voltage     | Normal        | 1513            | millivolts             |
+| HCA-CAMPUS2-WAN2  | VPPB3: VX1     | voltage     | Normal        | 971             | millivolts             |
+| HCA-CAMPUS2-WAN2  | VPPB3: VX2     | voltage     | Normal        | 1001            | millivolts             |
+| HCA-CAMPUS2-WAN2  | Vin            | voltage     | Normal        | 0               | volts-ac               |
+| HCA-CAMPUS2-WAN2  | Vin            | voltage     | Normal        | 230             | volts-ac               |
+| HCA-CAMPUS2-WAN2  | Vout           | voltage     | Normal        | 12              | volts-dc               |
+| HCA-CAMPUS2-WAN2  | Vout           | voltage     | Normal        | 12              | volts-dc               |
++-------------------+----------------+-------------+---------------+-----------------+------------------------+
+| HCA-CAMPUS3-WAN-3 | I: 12v         | current     | Normal        | 3               | amperes                |
+| HCA-CAMPUS3-WAN-3 | I: PEM In      | current     | Normal        | 1               | amperes                |
+| HCA-CAMPUS3-WAN-3 | I: PEM Out     | current     | Normal        | 4               | amperes                |
+| HCA-CAMPUS3-WAN-3 | P: In pwr      | power       | Normal        | 51              | watts                  |
+| HCA-CAMPUS3-WAN-3 | P: Out pwr     | power       | Normal        | 42              | watts                  |
+| HCA-CAMPUS3-WAN-3 | P: pwr         | power       | Normal        | 10              | watts                  |
+| HCA-CAMPUS3-WAN-3 | P: pwr         | power       | Normal        | 35              | watts                  |
+| HCA-CAMPUS3-WAN-3 | P: pwr: Pwr    | power       | Normal        | 10              | watts                  |
+| HCA-CAMPUS3-WAN-3 | RPM: fan0      | fan         | Normal        | 5920            | revolutions-per-minute |
+| HCA-CAMPUS3-WAN-3 | RPM: fan0      | fan         | Normal        | 6480            | revolutions-per-minute |
+| HCA-CAMPUS3-WAN-3 | RPM: fan1      | fan         | Normal        | 6420            | revolutions-per-minute |
+| HCA-CAMPUS3-WAN-3 | RPM: fan2      | fan         | Normal        | 6480            | revolutions-per-minute |
+| HCA-CAMPUS3-WAN-3 | RPM: fan3      | fan         | Normal        | 6480            | revolutions-per-minute |
+| HCA-CAMPUS3-WAN-3 | Temp: CPU      | temperature | Normal        | 35              | celsius                |
+| HCA-CAMPUS3-WAN-3 | Temp: Inlet 1  | temperature | Normal        | 29              | celsius                |
+| HCA-CAMPUS3-WAN-3 | Temp: Inlet 2  | temperature | Normal        | 27              | celsius                |
+| HCA-CAMPUS3-WAN-3 | Temp: Outlet 1 | temperature | Normal        | 33              | celsius                |
+| HCA-CAMPUS3-WAN-3 | Temp: Outlet 2 | temperature | Normal        | 31              | celsius                |
+| HCA-CAMPUS3-WAN-3 | Temp: Temp 1   | temperature | Normal        | 33              | celsius                |
+| HCA-CAMPUS3-WAN-3 | Temp: Temp 2   | temperature | Normal        | 37              | celsius                |
+| HCA-CAMPUS3-WAN-3 | Temp: Temp 3   | temperature | Normal        | 35              | celsius                |
+| HCA-CAMPUS3-WAN-3 | V: 0.75v       | voltage     | Normal        | 753             | millivolts             |
+| HCA-CAMPUS3-WAN-3 | V: 1.0v        | voltage     | Normal        | 997             | millivolts             |
+| HCA-CAMPUS3-WAN-3 | V: 1.0v CPU    | voltage     | Normal        | 984             | millivolts             |
+| HCA-CAMPUS3-WAN-3 | V: 1.1v        | voltage     | Normal        | 1070            | millivolts             |
+| HCA-CAMPUS3-WAN-3 | V: 1.2v        | voltage     | Normal        | 1198            | millivolts             |
+| HCA-CAMPUS3-WAN-3 | V: 1.35v CPU   | voltage     | Normal        | 1345            | millivolts             |
+| HCA-CAMPUS3-WAN-3 | V: 1.5v        | voltage     | Normal        | 1498            | millivolts             |
+| HCA-CAMPUS3-WAN-3 | V: 1.8v        | voltage     | Normal        | 1816            | millivolts             |
+| HCA-CAMPUS3-WAN-3 | V: 1.8v CPU    | voltage     | Normal        | 1816            | millivolts             |
+| HCA-CAMPUS3-WAN-3 | V: 12v         | voltage     | Normal        | 12688           | millivolts             |
+| HCA-CAMPUS3-WAN-3 | V: 2.5v        | voltage     | Normal        | 2469            | millivolts             |
+| HCA-CAMPUS3-WAN-3 | V: 3.0v        | voltage     | Normal        | 2979            | millivolts             |
+| HCA-CAMPUS3-WAN-3 | V: 3.3v        | voltage     | Normal        | 3264            | millivolts             |
+| HCA-CAMPUS3-WAN-3 | V: 3.3v STBY   | voltage     | Normal        | 3295            | millivolts             |
+| HCA-CAMPUS3-WAN-3 | V: 5v          | voltage     | Normal        | 5063            | millivolts             |
+| HCA-CAMPUS3-WAN-3 | V: DDR         | voltage     | Normal        | 1508            | millivolts             |
+| HCA-CAMPUS3-WAN-3 | V: PEM Out     | voltage     | Normal        | 12708           | millivolts             |
+| HCA-CAMPUS3-WAN-3 | V: VCC CPU     | voltage     | Normal        | 964             | millivolts             |
+| HCA-CAMPUS3-WAN-3 | V: VNN CPU     | voltage     | Normal        | 999             | millivolts             |
++-------------------+----------------+-------------+---------------+-----------------+------------------------+
+
+
+### hardware inventory ###
+
+*** hardware inventory ***
++========================================================================================================================================================+
+| Device            | Hardware Type       | Description                                              | Version | Part Number          | Serial Number    |
++========================================================================================================================================================+
+| HCA-CAMPUS1-WAN-1 | hw-type-chassis     | Cisco ASR1001-X Chassis                                  | V06     | ASR1001-X            | FXS2505Q15P      |
+| HCA-CAMPUS1-WAN-1 | hw-type-cpu         |  Intel(R) Xeon(R) CPU  @ 1.80GHz                         |  6      |  GenuineIntel        |                  |
+| HCA-CAMPUS1-WAN-1 | hw-type-dram        | Physical Memory                                          |         |                      |                  |
+| HCA-CAMPUS1-WAN-1 | hw-type-fantray     | Cisco ASR1001-X Fan Tray                                 |         | ASR1001-X-FANTRAY    |                  |
+| HCA-CAMPUS1-WAN-1 | hw-type-pem         | Cisco ASR1001-X AC Power Supply                          | V02     | ASR1001-X-PWR-AC     | LIT244632HW      |
+| HCA-CAMPUS1-WAN-1 | hw-type-pem         | Cisco ASR1001-X AC Power Supply                          | V02     | ASR1001-X-PWR-AC     | LIT244632KA      |
+| HCA-CAMPUS1-WAN-1 | hw-type-pim         | 8-port Gigabit Ethernet Shared Port Adapter              | V05     | SPA-8X1GE-V2         | JAE252101Y4      |
+| HCA-CAMPUS1-WAN-1 | hw-type-pim         | Built-in GE SPA with 2 port 10G and 6 port 1G Interfaces |         | BUILT-IN-2T+6X1GE    |                  |
+| HCA-CAMPUS1-WAN-1 | hw-type-pim         | Cisco ASR1001-X Embedded Services Processor              |         | ASR1001-X            |                  |
+| HCA-CAMPUS1-WAN-1 | hw-type-pim         | Cisco ASR1001-X Route Processor                          | V06     | ASR1001-X            | JAE25240PVA      |
+| HCA-CAMPUS1-WAN-1 | hw-type-pim         | Cisco ASR1001-X SPA Interface Processor                  |         | ASR1001-X            |                  |
+| HCA-CAMPUS1-WAN-1 | hw-type-transceiver | GE T                                                     | 2       | ABCU-5710RZ-CS4B     | AGM15472553      |
+| HCA-CAMPUS1-WAN-1 | hw-type-transceiver | GE T                                                     | A       | SP7041               | 00000MTC0845042F |
+| HCA-CAMPUS1-WAN-1 | hw-type-transceiver | GE T                                                     | B2      | ABCU-5710RZ-CS4      | AGM16252C2L      |
+| HCA-CAMPUS1-WAN-1 | hw-type-transceiver | GE T                                                     | B2      | ABCU-5710RZ-CS4      | AGM17312B2L      |
+| HCA-CAMPUS1-WAN-1 | hw-type-transceiver | GE T                                                     | B2      | ABCU-5710RZ-CS5      | AGM20474ATL      |
+| HCA-CAMPUS1-WAN-1 | hw-type-transceiver | GE T                                                     | V03     | GLC-TE               | ACW26031UAV      |
+| HCA-CAMPUS1-WAN-1 | hw-type-transceiver | SFP+ 10GBASE-SR                                          | V03     | SFP-10G-SR           | FNS24490JCG      |
+| HCA-CAMPUS1-WAN-1 | hw-type-transceiver | SFP+ 10GBASE-SR                                          | V03     | SFP-10G-SR           | FNS24490JDB      |
++-------------------+---------------------+----------------------------------------------------------+---------+----------------------+------------------+
+| HCA-CAMPUS2-WAN2  | hw-type-chassis     | Cisco ASR1002-HX Chassis                                 | V02     | ASR1002-HX           | FXS2315Q384      |
+| HCA-CAMPUS2-WAN2  | hw-type-cpu         |  Intel(R) Xeon(R) CPU  @ 2.50GHz                         |  6      |  GenuineIntel        |                  |
+| HCA-CAMPUS2-WAN2  | hw-type-cpu         | Asic 0 of module F0                                      | V01     | ASR1002HX-IPSECHW    | JAE232303WR      |
+| HCA-CAMPUS2-WAN2  | hw-type-dram        | Physical Memory                                          |         |                      |                  |
+| HCA-CAMPUS2-WAN2  | hw-type-fantray     | Cisco ASR1002-HX Fan Tray                                |         | ASR1002HX-FAN        |                  |
+| HCA-CAMPUS2-WAN2  | hw-type-pem         | Cisco 750 Watt AC power supply                           | V01     | ASR1000X-AC-750W     | POG23207X2W      |
+| HCA-CAMPUS2-WAN2  | hw-type-pem         | Cisco 750 Watt AC power supply                           | V01     | ASR1000X-AC-750W     | POG23207X60      |
+| HCA-CAMPUS2-WAN2  | hw-type-pim         | 18-port Gigabit Ethernet Port Adapter                    | V01     | EPA-18X1GE           | JAE2315087X      |
+| HCA-CAMPUS2-WAN2  | hw-type-pim         | 8-port Built-in 10-Gigabit Ethernet Port Adapter         | N/A     | BUILT-IN-EPA-8x10G   | JAE87654321      |
+| HCA-CAMPUS2-WAN2  | hw-type-pim         | 8-port Built-in Gigabit Ethernet Port Adapter            | N/A     | BUILT-IN-EPA-8x1G    | JAE12345678      |
+| HCA-CAMPUS2-WAN2  | hw-type-pim         | Cisco ASR1002-HX Embedded Services Processor             |         | ASR1002-HX           |                  |
+| HCA-CAMPUS2-WAN2  | hw-type-pim         | Cisco ASR1002-HX Modular Interface Processor             |         | ASR1002-HX           |                  |
+| HCA-CAMPUS2-WAN2  | hw-type-pim         | Cisco ASR1002-HX Route Processor                         | V02     | ASR1002-HX           | JAE23210XJV      |
+| HCA-CAMPUS2-WAN2  | hw-type-transceiver | GE T                                                     | F       | SP7041_Rev_F         | 00000MTC15270AG9 |
+| HCA-CAMPUS2-WAN2  | hw-type-transceiver | GE T                                                     | V01     | GLC-TE               | AVC225022KB      |
+| HCA-CAMPUS2-WAN2  | hw-type-transceiver | GE T                                                     | V01     | GLC-TE               | MTC21440D4U      |
+| HCA-CAMPUS2-WAN2  | hw-type-transceiver | GE T                                                     | V03     | GLC-TE               | ACW26033SDQ      |
+| HCA-CAMPUS2-WAN2  | hw-type-transceiver | GE T                                                     | V03     | GLC-TE               | ACW26033V8D      |
+| HCA-CAMPUS2-WAN2  | hw-type-transceiver | GE T                                                     | V03     | GLC-TE               | AVC24350DMN      |
++-------------------+---------------------+----------------------------------------------------------+---------+----------------------+------------------+
+| HCA-CAMPUS3-WAN-3 | hw-type-chassis     | Cisco ISR4351 Chassis                                    | V05     | ISR4351/K9           | FDO2338M000      |
+| HCA-CAMPUS3-WAN-3 | hw-type-cpu         |  Intel(R) Atom(TM) CPU  C2758  @ 2.40GH                  |  6      |  GenuineIntel        |                  |
+| HCA-CAMPUS3-WAN-3 | hw-type-dram        | Physical Memory                                          |         |                      |                  |
+| HCA-CAMPUS3-WAN-3 | hw-type-flash       | eMMC                                                     | 2.11    | 4041                 | 000008264001     |
+| HCA-CAMPUS3-WAN-3 | hw-type-pim         | Cisco ISR4351 Built-In NIM controller                    |         | ISR4351/K9           |                  |
+| HCA-CAMPUS3-WAN-3 | hw-type-pim         | Cisco ISR4351 Built-In SM controller                     |         | ISR4351/K9           |                  |
+| HCA-CAMPUS3-WAN-3 | hw-type-pim         | Cisco ISR4351 Built-In SM controller                     |         | ISR4351/K9           |                  |
+| HCA-CAMPUS3-WAN-3 | hw-type-pim         | Cisco ISR4351 Forwarding Processor                       |         | ISR4351/K9           |                  |
+| HCA-CAMPUS3-WAN-3 | hw-type-pim         | Cisco ISR4351 Route Processor                            | V05     | ISR4351/K9           | FDO233309ZS      |
+| HCA-CAMPUS3-WAN-3 | hw-type-pim         | Front Panel 3 ports Gigabitethernet Module               | V01     | ISR4351-3x1GE        |                  |
+| HCA-CAMPUS3-WAN-3 | hw-type-pim         | NIM-2GE-CU-SFP                                           | V02     | NIM-2GE-CU-SFP       | FOC22080YF0      |
+| HCA-CAMPUS3-WAN-3 | hw-type-transceiver | GE SX                                                    | V01     | GLC-SX-MMD           | ACW23140DE0      |
+| HCA-CAMPUS3-WAN-3 | hw-type-transceiver | GE SX                                                    | V01     | GLC-SX-MMD           | ACW23140EWJ      |
+| HCA-CAMPUS3-WAN-3 | hw-type-transceiver | GE SX                                                    | V01     | GLC-SX-MMD           | OPM22480J4S      |
++-------------------+---------------------+----------------------------------------------------------+---------+----------------------+------------------+

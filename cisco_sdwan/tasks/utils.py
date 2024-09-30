@@ -178,6 +178,12 @@ def ipv4_type(ipv4: str) -> str:
 
     return ipv4
 
+def validate_ipv4_list(ipv4_list: str) -> str:
+    for ipv4 in ipv4_list:
+        if re.match(r'\d+(?:\.\d+){3}$', ipv4) is None:
+            raise ValueError(f'"{ipv4}" is not a valid IPv4 address.')
+
+    return ipv4_list
 
 def site_id_type(site_id: str) -> str:
     try:
@@ -205,6 +211,7 @@ def version_type(version_str: str) -> str:
 
     return cleaned_version
 
+device_type_choices = ["vsmart","vmanage","vedge","cedge","vbond"]
 
 #
 # Argparse specific validators
